@@ -11,7 +11,7 @@ define m = Character("Mushy")
 define d = Character("Danny")
 define g = Character("Girl")
 label start:
-
+#SYNC CHECK
     #Show a background. This uses a placeholder by default, but you can
     #add a file (named either "bg room.png" or "bg room.jpg") to the
     #images directory to show it."""
@@ -130,7 +130,7 @@ label start:
     d "(meekly interrupts)
     Actually, we have four people in total. One of them isn’t here yet--"
     "Alis enters the club room."
-    
+
     al "Yoo hoo, I’m here-- Oh em gee, who are you?! Are you someone new? Finally!"
 
     n "(awkward)
