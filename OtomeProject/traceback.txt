@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 39, in script
+    M "What, my mask? Oh no no no, my good man -- it’s not to hide any ol’ ugliness. Why would a charming, lavishing young man such as myself need to hide some non-existent hideousness? What I’m hiding is… (whispers) Come closer."
+Exception: Sayer 'M' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 39, in script
+    M "What, my mask? Oh no no no, my good man -- it’s not to hide any ol’ ugliness. Why would a charming, lavishing young man such as myself need to hide some non-existent hideousness? What I’m hiding is… (whispers) Come closer."
+  File "C:\Users\Pritesh\Desktop\renpy-7.3.2-sdk\renpy\ast.py", line 676, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Pritesh\Desktop\renpy-7.3.2-sdk\renpy\ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'M' is not defined.
+
+Windows-8-6.2.9200
+Ren'Py 7.3.2.320
+OtomeProject 1.0
+Thu Jul 18 16:21:24 2019

@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 133: expected statement.
+    ALIS
+        ^
+
+File "game/script.rpy", line 138: expected statement.
+    ALIS
+        ^
+
+Ren'Py Version: Ren'Py 7.3.2.320
+Thu Jul 18 16:38:30 2019
