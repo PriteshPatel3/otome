@@ -402,4 +402,57 @@ The window was restored.
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Screen sizes: virtual=(1280, 720) physical=(
+Screen sizes: virtual=(1280, 720) physical=(958, 1005) drawable=(958, 1005)
+
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(958, 1013) drawable=(958, 1013)
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(958, 1013) drawable=(958, 1013)
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(958, 1013) drawable=(958, 1013)
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(958, 1013) drawable=(958, 1013)
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(958, 1013) drawable=(958, 1013)
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(958, 1013) drawable=(958, 1013)
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(958, 1013) drawable=(958, 1013)
+
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(1920, 1001) drawable=(1920, 1001)
+The window was minimized.
