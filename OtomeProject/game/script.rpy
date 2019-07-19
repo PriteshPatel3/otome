@@ -10,6 +10,7 @@ define al = Character("Alis ", color = "#095ce2", who_color="#095ce2")
 define m = Character("Mushy")
 define d = Character("Danny")
 define g = Character("Girl")
+define f = Character("Farhan")
 label start:
 #SYNC CHECK
     #Show a background. This uses a placeholder by default, but you can
@@ -168,6 +169,391 @@ label start:
 
     al "(cheers in the background)
     Yay, new members!"
+
+    "Mushi continues staring off with a derp face."
+
+
+    n "Mushi, need a little help here!"
+
+
+    m"(sustained derp face)
+    If I speak, she’ll kill me…"
+
+
+    a"(intervenes)
+    So are you up for the challenge or not?!"
+
+
+    n"(panics; surprised)
+    Ahh, okay okay! I’ll do this challenge. I mean, this will definitely work out if we put our heads together, right guys?"
+
+    "Nami is met with silence."
+
+
+    n"Um… guys?"
+
+    "Nami looks over to Danny, Alis and Mushi, whom are all putting on the exact same derp face Mushi had earlier."
+
+    n "(thinking to himself)
+    Oh boy…"
+
+
+    a "Good choice! Well team, now that we’ve added another number to our midsts,
+    let’s begin our quest to find more people. We shall STRIVE! Nami,
+    get over here and fill out this form."
+
+
+    al "(cheerfully)
+    We are soooo gonna party tonight!"
+
+
+    m "Uhh, Aida?"
+
+
+    d "Oh no, not again…"
+
+
+    a "It’s our tradition! Masjid, here we come!"
+
+
+    m "Hang on, you’re forgetting something, Aida: the best part!"
+
+
+    a "Oh yeah… Considering I’m poor right now, we can’t go for an all-out karaoke party.
+     Welp, if that’s the case, how about we take a rest over at the LP and gaze up at the beautiful stars over MMU?
+      Oh, and don’t forget about Deen’s amazing butter chicken too!"
+
+    #KIV  &
+    "Mushi and Alis" "Alaaaaaaaaa…"
+
+
+    d "(relieved)
+    Yes, finally. A more peaceful party."
+
+
+
+    a "Anyway, welcome to the club, Nami! Don’t hesitate to ask us anything about the club.
+     Let’s not waste our golden opportunity to form a nice, big family here!
+      I’m sure you won’t be wasting a single second here."
+
+
+    m "(excited)
+    Welcomeeeeeee!"
+
+
+    al "(equally excited)
+    Yayyyyyyy~!"
+
+
+    d "(muttering)
+    Make sure you do your work--"
+
+    "Both Alis and Mushi rush over to close Danny’s mouth, refraining him from continuing."
+
+
+    m "Come, Nami, let’s hang out with the boys. Tell us more stuff about you!"
+
+
+    al "Nak ikut!"
+
+
+    a "(sighs)
+    Kids these days… None of them know how to even appreciate money."
+
+
+    d "(dying in the background)
+    Help… me…"
+
+    "The five of them all leave over to a mamak store to enjoy their time out and welcome the new member of their club.
+     After a whole night’s part, Nami returns to his hostel exhausted and beat."
+
+
+
+
+    n "(thinking to himself)
+    Damn, those guys are insane. They are without a single care in the world but…
+    I have to admit they’re really funny. Heh.
+    I hope I can be like them one day too. Anyway, now that I’ve got myself into this new club,
+    let’s see if I can put in the best I can for it."
+
+    "Time jumps to three months afterwards."
+
+    #show SCENE 3
+
+    "In the club room of the JCS, Nami enters."
+
+
+    al "Hiiii, Nami! Welcome back. How was your class today? Any new (clears throat) ahem, new girlfriends?"
+
+
+    "Yo, Lis. It was a little bit tiring at class today and for the last time, I told you that that’s enough with the girlfriend thing, man."
+
+
+    al "Whooooooa, who is it? You’re hiding someone, aren’t you? C’mon, tell me, tell me!"
+
+
+    a "(yells)
+    Silence! Have a seat! We’re about to start an important meeting so hajime yo!"
+
+
+    d "(mumbles to himself)
+    ‘Hajime yo’? The fu--"
+
+
+
+    a "All right, guys! This week is an important week.
+     It’s the week where freshmen are gonna start pouring in by massive numbers and we need people!
+      At the same time, I’ve got some good news: a senior from the club before us is gonna be having
+      an event over at the MPH tonight called the ‘JC Night’."
+
+
+    n "JC Night?"
+
+
+    a "(angrily)
+    Did I say you could talk, Nami?!"
+
+    "Nami’s mouth zips shut, intimidated."
+
+
+    a "JC Night is an annual event that happens every year. Do you hear me?! Every. Single. Year! Got it memorized?!"
+
+    "Mushi, Alis and Nami nod slowly, plastered on their faces a classical derp face."
+
+
+    a "(taken aback; surprised)
+    What the eff, Mushi?! How long have you been there?"
+
+
+    m "(pouting; saddened)
+    S-since the very beginning. How did you not notice me? I’m sad now."
+
+
+    al "Maybe if you weren’t putting on that ridiculous mask of yours, we’d
+    notice you were there, like, right away. Am I right or am I right, Nami? (looks expectantly at Nami, waiting for his agreement)"
+
+
+    m "(sadly)
+    I know that, Alis, but… my mom wouldn’t let me do that."
+
+    a "(interrupts)
+    Didn’t I tell you all to stay quiet?!"
+
+    "Mushi, Alis and Nami immediately returned to being silent."
+
+
+    a "If I may continue, JC Night is a performance night with tons of people coming over to check out the talented performers.
+     What kind of performance, you might ask? Since, like, the dawn of time, JC Night has performances involving acting,
+      dancing, singing, fighting with… Japanese culture! "
+
+
+    m "(gets up and begins clapping)
+    Hell yeah! Go go, Japanese culture!"
+
+    "The others watched him in silence."
+
+
+    m "(intimidated)
+    Am I the only excited one here? Well, I wish I could join. (pouts sadly)"
+
+
+    a "And… you guys are invited! See you at JC Night tonight, fellas! And whatever you do… don’t wear some dumbsh*t
+     of an outfit in front of me, you got that?! (sudden solemn face) Make sure to invite all your friends with you, else…"
+
+
+    al "Aaaaand you don’t need to finish that line."
+
+
+    d "(meekly)
+    So, mind if I hang out with you guys during then--"
+
+
+
+    al "(excited)
+    Alright, who’s gonna be sitting beside me? Nami? Mushi? Aida? You three are coming right? Hehehehe!"
+
+
+    d "(dejectedly; upset)
+    What about me, guys…?"
+
+
+    m "Well, sorry, guys. I can’t spend this clearly important event normally --
+     I have to enjoy it with someone special, hehe. (speaks in a hushed tone) My mom."
+
+    "Nami, Danny, Alis and Aida roll their eyes."
+
+
+    n "(thinking to himself)
+    JC Night, huh? So that means everyone is gonna be there… my crush included.
+    If that’s the case, I’m definitely not missing this. Plus, I’m gonna be meeting a lot of new people
+     as friends on the way. But who exactly should I invite with me? Alis? Mushi? Danny? Aida?"
+
+    #[Game provides four choices to choose from: Alis, Mushi, Danny and Aida.]
+
+    #show SCENE 4 -
+
+    "At the entrance of the MPH, Nami is waiting for Alis by the door."
+
+
+    al "(sneaks up behind Nami; surprises him)
+    Boo!"
+
+
+    n "(jolts back; surprised)
+    Whoa!"
+
+    al "(amused)
+    Hahahaha, scared you, didn’t I? Anyway, hiya!"
+
+
+    n "(still surprised)
+    H-h-hi! (thinking to himself; stunned) Wow, I’ve never seen Alis like this before…"
+
+
+    al "(looks at Nami; confused)
+    Hello? Earth to Nami? Nami? Moshi moshi?"
+
+
+    n "(jolts back to reality)
+    Whoops, sorry there, Alis! I was uh… in… another dimension just now, I guess. Hehe."
+
+
+    al "(leans closer; interested)
+    Wanna follow you there, hehe. (giggles)"
+
+
+    n "(nervously)
+    So… what’s up with the fancy get-up?"
+
+
+    al "Oh, my outfit? Ehehe, you like it? It’s my best set of clothes! I only choose it for the most special of occasions!"
+
+
+    n "(straightens up; excited)
+    So does that mean I’m special?"
+
+
+    al "(confused)
+    Ummm… no?"
+
+
+    "Nami frowns, disappointed by Alis’s response."
+
+
+    al "(expression shifts to more amusement)
+    Ahahahah, I’m just joking lah. It’s more because the night itself is special. I mean, it only happens once every year, right?"
+
+
+    n "(still disappointed)
+    Yeah… hahaha…"
+
+    "ANNOUNCER\n
+    Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
+
+
+    al "Oh em gee, it’s about to start! I’m so excited, eeeeeeeeeeeeeeeek! Come on, let’s go!"
+
+
+    n "(follows behind Alis)
+    Ahahaha, alright alright."
+
+
+    al "Kocchi, kocchi!"
+
+    "Inside the MPH building, photos of the previous JC Nights are being presented.
+     Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
+
+
+    f "Thank you all for attending JC Night tonight! I just wanted to let you all know how happy I am over here in MMU and how never will I ever get this experience elsewhere. Most of all, a special thank you goes out to members and the high committee of the Japanese Cultural Society for backing me up for this event and really, having my back through thick and thin during times of hardship. Once again, thank you, and just enjoy the show!
+    Outside of MPH, Nami and Alis are together after the end of the event."
+
+
+    al "Oh my God, I was asleep the whole time!"
+
+
+    n "Ahahaha, you dummy! Man, the event was awesome…"
+
+
+    al "(pleadingly)
+    Please give me some good news and tell me you’ve recorded just a tiny little bit of it."
+
+
+    n "Ahahaha, no worries, I did. I’ll hand it over to you. Well, are we gonna head back?"
+
+
+    al "(deep in thought)
+    Hmmm… Mind if you come with me first? Just for a little walk?"
+
+
+    n "(interest piqued)
+    Uh, sure."
+
+
+    al "(happy)
+    Hooray! Well come on, then! This way!"
+
+    "Both Nami and Alis set out on a walk. There, they spent time indulging in petty banter and light jokes.
+     After approximately fifteen minutes, Alis has led Nami into a quiet part of Cyberjaya."
+
+
+    al "(in a sombre voice; serious)
+    You know, it was just a coincidence that the JC Night for this year was on this particular night but…
+     I figured I couldn’t miss this opportunity. I come here every year and since you brought me to JC Night, I thought that I should show you this."
+
+    n "Show me…?"
+
+
+    al "(has difficulty speaking)
+    I wanted to show you my…"
+
+
+    n "(waits in anticipation)
+    My…?"
+
+
+    al "(begins to tear up)
+    ...My cat’s grave. My cat Kelabu. He used to be nothing but family to me ever since I left elementary school.
+    I loved him so much, we were practically inseparable. He was there for me during my bad days at school.
+     I used to get bullied a lot, but every time I came home in tears, he was always there to make things better. I… I--"
+
+    "Alis bursts down into tears."
+
+
+    n "(shocked)
+    Wha--? (thinking to himself) I’ve never seen Alis cry like this before. (to Alis) Alis, are you okay?"
+
+
+    al "(still crying)
+    No. My cat has always been like family to me."
+
+
+    n "(uncertain on what to do but was still desperate to try something anyway)
+    Awww, Alis, why don’t you come here? I’ll show a bunch of memes, all right?"
+
+
+    al "(sniffles)
+    Where?"
+
+    "Nami proceeds to show a bunch of memes for Alis to see.
+     It takes her a while to start smiling but when she finally does,
+      it was not long until she starts to laugh as well.
+       Ten minutes after the both of them had laughed over a couple of memes,
+       Nami returns to ask her of her wellbeing. "
+
+
+    n "You good now?"
+
+
+    al "(smiling)
+    Even though I might cry at times, don’t worry, I’m always good. Thanks for cheering me up though, by the way.
+     I’m getting sleepy now though, so I’m gonna head back home. See you tomorrow, all right? It’s a promise."
+
+
+    "(repeats; smiling back)
+    Promise."
+
+    # show SCENE 4 -
+
 
     # This ends the game.
     return

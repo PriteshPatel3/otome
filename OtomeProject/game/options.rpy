@@ -12,13 +12,13 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("OtomeProject")
+define config.name = _("JCS OTOME GAME!")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## The version of the game.
@@ -30,6 +30,16 @@ define config.version = "1.0"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+Placeholder\n
+Placeholder\n
+Placeholder\n
+Placeholder\n
+Placeholder\n
+Placeholder\n
+Placeholder\n
+Placeholder\n
+Placeholder\n
+Placeholder\n
 """)
 
 
@@ -37,7 +47,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "OtomeProject"
+define build.name = "OtomeGame"
 
 
 ## Sounds and music ############################################################
@@ -83,7 +93,7 @@ define config.intra_transition = dissolve
 
 ## A transition that is used after a game has been loaded.
 
-define config.after_load_transition = None
+define config.after_load_transition = dissolve
 
 
 ## Used when entering the main menu after the game has ended.

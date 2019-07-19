@@ -1,22 +1,34 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 39, in script
-    M "What, my mask? Oh no no no, my good man -- it’s not to hide any ol’ ugliness. Why would a charming, lavishing young man such as myself need to hide some non-existent hideousness? What I’m hiding is… (whispers) Come closer."
-Exception: Sayer 'M' is not defined.
+  File "game/options.rpy", line 21, in script
+    define gui.show_name = false
+  File "game/options.rpy", line 21, in script
+    define gui.show_name = false
+  File "game/options.rpy", line 21, in <module>
+    define gui.show_name = false
+NameError: name 'false' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 39, in script
-    M "What, my mask? Oh no no no, my good man -- it’s not to hide any ol’ ugliness. Why would a charming, lavishing young man such as myself need to hide some non-existent hideousness? What I’m hiding is… (whispers) Come closer."
-  File "C:\Users\Pritesh\Desktop\renpy-7.3.2-sdk\renpy\ast.py", line 676, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\Pritesh\Desktop\renpy-7.3.2-sdk\renpy\ast.py", line 574, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'M' is not defined.
+  File "C:\Users\Pritesh\Desktop\renpy-7.3.2-sdk\renpy\bootstrap.py", line 314, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Pritesh\Desktop\renpy-7.3.2-sdk\renpy\main.py", line 439, in main
+    renpy.game.context().run(node)
+  File "game/options.rpy", line 21, in script
+    define gui.show_name = false
+  File "game/options.rpy", line 21, in script
+    define gui.show_name = false
+  File "C:\Users\Pritesh\Desktop\renpy-7.3.2-sdk\renpy\ast.py", line 2106, in execute
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "C:\Users\Pritesh\Desktop\renpy-7.3.2-sdk\renpy\python.py", line 2028, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/options.rpy", line 21, in <module>
+    define gui.show_name = false
+NameError: name 'false' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
-OtomeProject 1.0
-Thu Jul 18 16:21:24 2019
+JCS OTOME GAME! 
+Thu Jul 18 22:51:13 2019
