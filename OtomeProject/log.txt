@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Sat Jul 20 16:29:10 2019
 Windows-8-6.2.9200
 Ren'Py 7.1.3.1092
@@ -9747,3 +9748,5 @@ primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+=======
+>>>>>>> 170499261bbd6a5356228761426e4595b3d6b5bb
