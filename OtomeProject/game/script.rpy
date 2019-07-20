@@ -7,7 +7,7 @@ define e = Character("Eileen")
 define n = Character("Nami ", color = "#095ce2", who_color="#095ce2")
 define a = Character("Aida ", color = "#000000",who_color="#DDF")
 define al = Character("Alis ", color="#a31a1a",who_color="#a31a1a")
-define m = Character("Mushy ", color = "#8c6406",who_color="#8c6406")
+define m = Character("Mushi ", color = "#8c6406",who_color="#8c6406")
 define d = Character("Danny", color = "#470fd6",who_color="#470fd6")
 define g = Character("Girl", color = "#a31a1a",who_color="#a31a1a")
 define f = Character("Farhan", color = "#000000",who_color="#000000")
@@ -69,8 +69,8 @@ label start:
     m "Besides, there are ladies there too. Maybe one of them will, I dunno, finally feel bad for you and endure a date with you."
     n "You know what? At this point, I just don’t care about girls anymore. But (sighs) fine, you got me at ‘family’. Alright, masked weirdo, tell me more about the JCS. What do they even do for starters?"
     m "Ahahahaha, well well well. I knew you’d take the right step! To enlighten you, I’ll say that we proud members of the JCS has got a lot of goodies and surprise events we do centering on, well, Japanese culture!"
-    m "Some weeb bullsh*t, yeah, but not purely that. First off, we’ve got events we put our creative lil’ minds together to come up with: Japanese workshops and the upcoming JC Night, for example. We’ve also got trips and my favourite?"
-    m "The bonding camp, man. Hoooo boy, if that ain’t the best time to go fishing for hot chicks! My words impressing you, lover boy?"
+    m "Some weeb bullsh*t, yeah, but not purely that. First off, we’ve got events we put our creative lil’ minds together to come up with: Japanese workshops and the upcoming JC Night, for example."
+    m "We’ve also got trips and my favourite? The bonding camp, man. Hoooo boy, if that ain’t the best time to go fishing for hot chicks! My words impressing you, lover boy?"
     n "Hmmm, I guess there are a few trips that are grabbing my attention. Besides, I’ve already lost all hope in anything else I ever loved anyway so nothing worse can happen, I guess. (sighs)"
     n "Alright, bro, let’s try out your little club and see if it’s worth any of my time."
     m "Ayyyyy, that’s the spirit, man! Oh boy, Aida’s gonna be so proud of me for fishing in more fresh blood, hehehehe! Well chump, you just made the right choice. Like, no kidding."
