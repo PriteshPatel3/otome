@@ -4,13 +4,13 @@
 # name of the character.
 
 define e = Character("Eileen")
-define n = Character("Nami ", color="#ed76cd",who_color="#ed76cd")
+define n = Character("Nami ", color = "#095ce2", who_color="#095ce2")
 define a = Character("Aida ", color = "#000000",who_color="#DDF")
-define al = Character("Alis ", color = "#095ce2", who_color="#095ce2")
-define m = Character("Mushy")
-define d = Character("Danny")
-define g = Character("Girl")
-define f = Character("Farhan")
+define al = Character("Alis ", color="#ed76cd",who_color="#ed76cd")
+define m = Character("Mushy ", color = "#8c6406",who_color="#8c6406")
+define d = Character("Danny", color = "#470fd6",who_color="#470fd6")
+define g = Character("Girl", color = "#a31a1a",who_color="#a31a1a")
+define f = Character("Farhan", color = "#55bda4",who_color="#55bda4")
 label start:
 #SYNC CHECK
     #Show a background. This uses a placeholder by default, but you can
