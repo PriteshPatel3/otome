@@ -9729,4 +9729,21 @@ Running _start took 0.00s
 The window was minimized.
 The window was restored.
 
-primary display bounds: (0, 0
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1280, 720) physical=(1733, 975) drawable=(1733, 975)
