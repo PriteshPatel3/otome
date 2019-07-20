@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 13: invalid syntax
-    Character("Farhan" color = "#55bda4",who_color="#55bda4")
-                            ^
+File "game/script.rpy", line 591: expected 'label_name' not found.
+    jump
+        ^
 
 Ren'Py Version: Ren'Py 7.1.3.1092
-Sat Jul 20 01:35:27 2019
+Sat Jul 20 17:13:35 2019
