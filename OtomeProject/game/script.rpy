@@ -14,6 +14,7 @@ define f = Character("Farhan", color = "#000000",who_color="#000000")
 define pm = Character("Phone Message", color = "#000000",who_color="#000000")
 define an = Character("Annnoucer", color = "#fc0303",who_color="#fc0303")
 
+
 label start:
 #SYNC CHECK
     #Show a background. This uses a placeholder by default, but you can
@@ -26,31 +27,63 @@ label start:
     #show eileen happy
 #=======
     scene park
+    show n_dissapointed
 
     #show test at left
-    show test3 at right
-    show n_grin at left
+    #show test3 at right
+    #show n_grin at left
 #>>>>>>> ca4bf22993cd756950205c8342f030ce29f99192
+
     n "I love you so much! Please accept my love for you!"
+    show n_dissapointed at left:
+        alpha 0.7
+
+    # show the girl at right
 
     g "Ummmmm, no?"
 
+    show n_dissapointed at left:
+        alpha 1
+
+    # show the girl at right:
+        #alpha 0.7
+
     n "But why? I have a lot of money to spend on you. Just name it!"
+
+    show n_dissapointed at left:
+        alpha 0.7
+    # show the girl at right:
+        #alpha 1
 
     g "Pffft… Money? Why would I ask you for it?"
 
     g "I can just dig it up for myself. I don’t need no lousy man like you."
 
+    hide n_dissapointed
+    show n_sad at left:
+    # show the girl at right:
+        #alpha 0.7
+
     n "No! My love for you is genuine so please… At least give me a chance?"
-
+    show n_sad at left:
+        alpha 0.7
+    # show the girl at right:
+        #alpha 1
     g "How dare you even speak with me, you filth! Did you even do so much as take a look at yourself? You’re fat plus ugly! Ugh, you just plain disgust me. Try better, creep."
-
+    show n_sad at left:
+        alpha 1
+    # show the girl at right:
+        #alpha 0.7
     n "But…"
-
+    show n_sad at left:
+        alpha 0.7
+    #show the girl at right:
+        #alpha 1
     g "Ciao, Fatty. Good luck with your ugly, miserable and loveless life. Hahahahaha!"
-
+    # hide the girl
     "The girl yeeted herself out of Nami’s sight."
-
+    scene black
+    show n_dissapointed
     n "(thinking to himself)"
 
     n "What did I do to deserve this? This is the ump teenth time I’ve been rejected. This time, they’re giving me the nickname ‘Fatty’?"
@@ -58,196 +91,312 @@ label start:
     n "(sighs) What a day.. I gave up on searching for someone who could possibly love a joke like me. Just f*ck love, man. I’ll always be alone, no matter what."
 
     #scene one
+    scene white
     m "Hey… Hey you! You over there! You sorry sap of a man who just got rejected!"
 
+    scene park
+    show m
     "(taken aback)"
+    show m at left:
+        alpha 0.7
 
-    n "Wha-- what do you want? Wait, who even are you?! What's up with the mask, bro? To hide an ugliness like the one I have? Oh boy, if that’s the case, I 	wish I had a mask just like that."
+    show n_grin at right
 
+    n "Wha-- what do you want? Wait, who even are you?! What's up with the mask, bro? To hide an ugliness like the one I have? Oh boy, if that’s the case, I wish I had a mask just like that."
+
+    hide m
+    hide n_grin
+    show m_hurray at left
+    show n at right:
+        alpha 0.7
     m "What, my mask? Oh no no no, my good man -- it’s not to hide any ol’ ugliness. Why would a charming, lavishing young man such as myself need to hide some non-existent hideousness? "
 
+    hide m_hurray
+    show m_smirk at left
     m "What I’m hiding is… (whispers) Come closer."
-
+    hide n
+    show n_crossarm
     "Nami leans closer to the masked stranger."
 
     m "… Fame. Hehehehe."
+    show m_smirk at left:
+        alpha 0.7
 
     n "… What."
-
+    show m_smirk at left:
+        alpha 1
+    show n_crossarm:
+        alpha 0.7
     m "Wherever I go, the mask stays with me. Just like a river with a turtle."
-
+    hide m_smirk
+    hide n_crossarm
+    show n_eyeroll
     n "What you just said makes no sense--"
-
+    hide n_eyeroll
+    show m_sad
     "(delighted grin)"
 
     m "Even my mom approved of it too!"
-
+    hide m_sad
+    show n
     n "Okay, you know what? Just stay away from me, man. I’m already having a bad day. I just got rejected by yet another girl so I’ve got no time for your jargon."
-
+    show n at left:
+        alpha 0.7
+    show m_sad at right
     m "Awww, you just got rejected? C’mon, being fat is not the worst. You’re all kinds of chubby, and that’s considered cute to some people."
 
     m "Have an optimistic outlook, man. Besides, didn’t you hear of that old wife’s tale? ‘There are plenty of fish in the sea’!"
-
+    show n at left:
+        alpha 1
+    show m_sad at right:
+        alpha 0.7
     n "Just shut up, man. And plus, that’s an idiom, not some old wife’s tale."
-
+    show n at left:
+        alpha 0.7
+    hide m_sad
+    show m_love at right
     m "Hey hey hey. Whoaaaa, man. Okay, I’m going to tell you a lil’ secret. Y’know, a bro-to-bro kind of secret. Lean closer, I’ll tell you what it is:"
-
+    hide n
+    show n_crossarm
     m "(whispers) I know someone who’s gonna accept you, regardless of who you are."
 
-    n "(surprised)"
+    show m_love at right:
+        alpha 0.7
+    n "(surprised) What? You know a girl?"
 
-    n "What? You know a girl?"
+    show n_crossarm:
+        alpha 0.7
+    show m_love at right:
+        alpha 1
 
     m "Nahhh, hahaha! Didn’t we already establish that no sane girl wants you?"
-
+    hide n_crossarm
+    show n_dissapointed at left
+    show m_love at right:
+        alpha 0.7
     n "(disappointed) Oh."
 
+    show n_dissapointed at left:
+        alpha 0.7
+    hide m_love
+    show m at right
     m "I’m talking about a group, a society. A holy matrimony of the greatest chaps who don’t care about money. It’s the…"
 
     #"Drum roll plays in the background."
 
     m "Japanese Cultural Society! Or JCS for short."  #(fanfares play in the background)
+    hide n_dissapointed
+    hide m
+    show n_eyeroll
 
     n "The JCS? What? You mean that loser get-together community where unwanted virgins flock together to swoon over 2D girls that talk like a yelping penguin? "
 
     n "That shadowed group polluted by numbskulls people call ‘weebs’? I’m not interested in your club, bro. I’m desperate, but I’m not that desperate. Besides, do I even know who you are?"
 
+    show n_eyeroll at right:
+        alpha 0.7
+    show m_tthink at left
     m "Oh c’mon, bro. We already got rejected like so many times. We need members too, so why not join the other rejects who are just like you? "
 
     m "We could always use a new buddy in our ranks -- a fella to add to our family, y’know? Chillax, I’ll take you there and you’re gonna have a great time."
-
+    hide m_tthink
+    show m_love at left
     m "Besides, there are ladies there too. Maybe one of them will, I dunno, finally feel bad for you and endure a date with you."
 
+    show m_love at left:
+        alpha 0.7
+    hide n_eyeroll
+    show n at right
     n "You know what? At this point, I just don’t care about girls anymore. But (sighs) fine, you got me at ‘family’. Alright, masked weirdo, tell me more about the JCS. What do they even do for starters?"
 
+    show n at right:
+        alpha 0.7
+    show m_thumbup at left
+    hide m_love
     m "Ahahahaha, well well well. I knew you’d take the right step! To enlighten you, I’ll say that we proud members of the JCS has got a lot of goodies and surprise events we do centering on, well, Japanese culture!"
 
     m "Some weeb bullsh*t, yeah, but not purely that. First off, we’ve got events we put our creative lil’ minds together to come up with: Japanese workshops and the upcoming JC Night, for example."
 
     m "We’ve also got trips and my favourite? The bonding camp, man. Hoooo boy, if that ain’t the best time to go fishing for hot chicks! My words impressing you, lover boy?"
-
+    show m_thumbup at left:
+        alpha 0.7
+    show n_dissapointed at right
+    hide n
     n "Hmmm, I guess there are a few trips that are grabbing my attention. Besides, I’ve already lost all hope in anything else I ever loved anyway so nothing worse can happen, I guess. (sighs)"
 
     n "Alright, bro, let’s try out your little club and see if it’s worth any of my time."
-
+    show m_thumbup at left:
+        alpha 1
+    show n_dissapointed at right:
+        alpha 0.7
     m "Ayyyyy, that’s the spirit, man! Oh boy, Aida’s gonna be so proud of me for fishing in more fresh blood, hehehehe! Well chump, you just made the right choice. Like, no kidding."
 
+    hide m_thumbup
+    hide n_dissapointed
+    show m
     m "So, you busy right now? Like, really busy?"
+    show m at right:
+        alpha 0.7
+    show n at left
 
     n "Nah, not really, but I’m about to head over back and get some decent sleep actually--"
-
+    hide m
+    show m_hurray
+    show n at left
     m "Bahhhh, sleep is for the weak! Be a man, lover boy! Come with me and join us in our secret JCS lair."
 
     n "What?! But my precious sleep…! Masked man, nooooo….!"
-
+    scene black
     "And without further ado and ignoring his pleas, the masked man dragged Nami over to the secret JCS lair."
-
+    show n_crossarm
     n "(thinking to himself) What a weird boy. He gives me the creeps already. Oh damn, I can’t even imagine how weirder his club must be with him already being like this."
 
     n "Gah, never mind. Nothing is better than giving it a try, right? At least, I hope I gain a chance to find some long term friendship over there."
 
     #scene two
-
+    scene stairway
     m "Kocchi, kocchi! We’re close -- just a few steps more!"
-
+    show n_sad
     n "What (pants) floor are we (pants) in now? We at heaven or something? Oh God, I can’t even feel my legs."
-
+    scene fci_first
+    hide n_Sad
+    show m_sad
     m "Ahhhh, here we are: the best spot in MMU! Or as we like to call it… Uhhhh, wait, what do we call it again? Let me think…"
-
+    show m_sad at right
+    show n_sad at left
     n "I… (breathes heavily) need… (breathes heavily) water…"
 
     m "Oh, don’t be such a wuss. Did you even think for a second that I could be dying because I’m wearing this darn mask? Be considerate, man, sheesh."
 
     "Aida rushes out to check out the noise."
-
+    show a-you
     a "What’s up with all the noise? Who’s there?! …Oh, Mushi, it’s just you. How very early of you to be at our club at this time. Didn’t I already tell you to not come bothering us with your jibber-jabber?!"
 
     m "Oh chill up, Aida. I was just sauntering around, finding myself some chicks here and there until I found this poor lad being rejected for like, the bazillionth time."
-
+    hide m_sad
+    hide a-you
+    show m_love at right
+    show a-disgust
     m "(leans closer to Aida and whispers) Believe it or not, this dude had it worse than me being rejected like that."
 
     m "It gave me hope that one day, some girl would choose me for the sake of avoiding a doofus like him!"
-
+    hide n_sad
+    show n_eyeroll at left
     n "(hits Mushi in the stomach) I heard that, jackass!"
-
+    hide m_love
+    show m_shock at right
     m "Ouch!"
 
+    hide a-disgust
+    show a-blushing
     a "Hmmmm, I like you! You’re a man of strength and refined honour for teaching the masked phantom discipline. Come in, samurai -- we have a club to burn!"
-
+    hide n_eyeroll
+    hide a-blushing
+    hide m_shock
     "Aida pushes both Nami and Mushi into the club room."
+    scene club
 
+    show a-smile
     a "Sooooo, this is basically our club room… for now. I know it’s filled with dust and whatnot all over the place but hey, it’s a nice spot for us JCS folks!"
 
     a "(raises voice) Am I right?"
-
+    show m hurray at left
+    show a-smile at right
     m "Heck yeah, kaichou! Hontou ni subarashii~!"
-
+    hide a-smile
+    show a-you at right
     a "So… who is this? This is not some spot for you and your goons to lepak around, Mushi."
 
     m "Oh yeah, whoops, I forgot about you. Alright, fellas, meet…"
-
+    hide m hurray
+    show m_think at left
     m "Hey, wait a sec, I don’t even know what’s your name. Hahaha, some moron I am. "
-
+    hide m_think
+    hide a-you
+    show m_sad
     m "Alright alright, let’s trade. Ahem ahem. Watakushi no namae wa Mushi desu, or Mushi for short. Douzo yoroshiku onegaishimasu."
-
+    hide m_sad
+    show m_shock at left
+    show n at right
     m "(bows lowly to Nami) Anata no namae wa?"
 
     n "Uh… what?"
-
+    show a-smile
     a "(whispers) He’s asking for your name."
-
+    hide n
+    hide a-smile
+    show n_smile at right
     n "Oh. Nami. My name is Nami. It’s my first semester and--"
+    hide m_shock
 
+    show a-shy at left
     a "(interrupts; excited)
     Hi, my name is Aida! I’m the president of the JCS and this guy over here is Danny."
 
     n "Huh? Danny? I only see you and Mushi…"
+    show d-under table
     "Danny emerges from a table where he was hiding underneath."
-
+    hide n_smile
+    show n_grin at right
     d "Yo, s’up? I’m Danny. Yoroshiku."
 
     n "What the f*ck? Hi, yoroshiblaghehwhut?"
 
     d "Ehh, close enough."
-
+    hide d-under table
+    hide n_grin
+    hide a-shy
+    show n_crossarm at right
     n "Wait, so hold on. How many people are there in this club? Just the three of you? How is this club going to run with just the three of you? I expected more people -- maybe at least… twenty?"
-
+    show a-angry at left
     a "(offended)
     You got a problem with that?!"
 
+    hide a-angry
+    hide n_crossarm
+    show d-excited
     d "(meekly interrupts)
     Actually, we have four people in total. One of them isn’t here yet--"
-
+    hide d-excited
     "Alis enters the club room."
-
+    show al-excited at right
     al "Yoo hoo, I’m here-- Oh em gee, who are you?! Are you someone new? Finally!"
 
+    show n_smile at left
     n "(awkward)
     Um… Hi there. I’m Nami. Yogoshiwho."
 
     al "(cheerful) Hi, I’m Alis! I’m not really good with Japanese but hey, I’ll take that intro!"
-
+    hide al-excited
+    hide n_smile
+    show n at left
+    show a-shy at right
     a "(slides into the conversation) Sooo, Nami. What brings you here? You interested in being one of us?"
 
     a "(narrows eyes) You’re not just gonna leave, are ya?"
-
+    show m
     m "(mutters) So he is…"
-
+    hide a-shy
+    show a-angry at right
     a "(angry) Let him talk, Mushi! What do you think he is, some kind of mouthless man?!"
-
+    hide m
+    show m hurray
     m "(raises both hands in surrender) O-okay. Just rambling sh*t, jeez."
-
+    hide m hurray
     n "Well, no, I’m not leaving yet but that doesn’t mean I’m joining either. What I want to know before I make that decision is… what exactly do you do in this club? Will it all be worth my time?"
-
+    show d-sad
     d "Ah shit, here we go again."
-
+    hide d-sad
     a "(stares crossed at Mushi)
     Mushi, you just brought some random guy to this club without giving him all the details? You for real?"
 
     "Mushi remains silent but looks ahead with a derp face."
 
+    hide a-angry
+    show a-you at right
     a "(groans) I’ll get you for this."
-
+    hide a-you
+    show a-blushing at right
     a "(looks at Nami) Alright, I’m only going to say this once, so get it stuck in your head. Our club here is about to be disbanded because as you can see, we are lacking members."
     a "In short, we need your help in getting it to grow so it won’t get disbanded. You ready for this challenge?"
 
@@ -255,8 +404,8 @@ label start:
     Yay, new members!"
 
     "Mushi continues staring off with a derp face."
-
-
+    hide n
+    show n_dissapointed at left
     n "Mushi, need a little help here!"
 
 
@@ -267,105 +416,126 @@ label start:
     a"(intervenes)
     So are you up for the challenge or not?!"
 
-
+    hide n_dissapointed
+    hide a-blushing
+    show n_happy
     n"(panics; surprised)
     Ahh, okay okay! I’ll do this challenge. I mean, this will definitely work out if we put our heads together, right guys?"
 
     "Nami is met with silence."
 
-
     n"Um… guys?"
-
+    hide n_happy
+    show n_dissapointed
     "Nami looks over to Danny, Alis and Mushi, whom are all putting on the exact same derp face Mushi had earlier."
 
     n "(thinking to himself)
     Oh boy…"
 
-
+    show a-smile at right
     a "Good choice! Well team, now that we’ve added another number to our midsts,
     let’s begin our quest to find more people. We shall STRIVE! Nami,
     get over here and fill out this form."
 
-
+    show al-excited at left
+    hide n_dissapointed
     al "(cheerfully)
     We are soooo gonna party tonight!"
 
-
+    hide a-smile
+    show a-dumbface at right
+    show m
     m "Uhh, Aida?"
-
-
+    hide m
+    show d-shy
     d "Oh no, not again…"
 
 
     a "It’s our tradition! Masjid, here we come!"
 
-
+    hide al-excited
+    hide d-shy
+    show m_hip at left
     m "Hang on, you’re forgetting something, Aida: the best part!"
 
-
+    hide a-dumbface
+    hide m_hip
+    show a-smile
     a "Oh yeah… Considering I’m poor right now, we can’t go for an all-out karaoke party.
      Welp, if that’s the case, how about we take a rest over at the LP and gaze up at the beautiful stars over MMU?"
 
     a "Oh, and don’t forget about Deen’s amazing butter chicken too!"
 
     #KIV  &
+    show al-dumbface
+    show m_think at left
+    show a-smile at right
     "Mushi and Alis" "Alaaaaaaaaa…"
 
-
+    hide al-dumbface
+    hide m_think
+    hide a-smile
+    show d-excited
     d "(relieved)
     Yes, finally. A more peaceful party."
 
 
-
+    hide d-excited
+    show a-shy
     a "Anyway, welcome to the club, Nami! Don’t hesitate to ask us anything about the club.
      Let’s not waste our golden opportunity to form a nice, big family here!
       I’m sure you won’t be wasting a single second here."
 
-
+    show m hurray at left
     m "(excited)
     Welcomeeeeeee!"
 
-
+    show al-excited at right
     al "(equally excited)
     Yayyyyyyy~!"
 
 
     d "(muttering)
     Make sure you do your work--"
-
+    hide m hurray
+    hide al-excited
+    hide a-shy
     "Both Alis and Mushi rush over to close Danny’s mouth, refraining him from continuing."
 
-
+    show m_sad
     m "Come, Nami, let’s hang out with the boys. Tell us more stuff about you!"
 
-
+    show al-shy at right
     al "Nak ikut!"
 
-
+    hide m_sad
+    hide al-shy at right
+    show a-disgust
     a "(sighs)
     Kids these days… None of them know how to even appreciate money."
 
-
+    hide a-disgust
     d "(dying in the background)
     Help… me…"
-
+    scene black
     "The five of them all leave over to a mamak store to enjoy their time out and welcome the new member of their club.
      After a whole night’s part, Nami returns to his hostel exhausted and beat."
 
+    show n_smirk
     n "(thinking to himself)
     Damn, those guys are insane. They are without a single care in the world but…
     I have to admit they’re really funny. Heh."
 
     n "I hope I can be like them one day too. Anyway, now that I’ve got myself into this new club,
     let’s see if I can put in the best I can for it."
-
+    scene white
     "Time jumps to three months afterwards."
 
     #show SCENE 3
 
     "In the club room of the JCS, Nami enters."
 
-
+    scene club
     al "Hiiii, Nami! Welcome back. How was your class today? Any new (clears throat) ahem, new girlfriends?"
 
 
@@ -473,8 +643,8 @@ label start:
 
     #show SCENE 4 (Alis)-
     label al:
+        scene outside_mph
         "At the entrance of the MPH, Nami is waiting for Alis by the door."
-
 
         al "(sneaks up behind Nami; surprises him)
         Boo!"
@@ -541,7 +711,7 @@ label start:
 
 
         al "Kocchi, kocchi!"
-
+        scene mph
         an "Inside the MPH building, photos of the previous JC Nights are being presented.
          Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
 
@@ -579,10 +749,11 @@ label start:
         al "(happy)
         Hooray! Well come on, then! This way!"
 
+        scene otw_quiet
         "Both Nami and Alis set out on a walk. There, they spent time indulging in petty banter and light jokes.
          After approximately fifteen minutes, Alis has led Nami into a quiet part of Cyberjaya."
 
-
+        scene grave
         al "(in a sombre voice; serious)
         You know, it was just a coincidence that the JC Night for this year was on this particular night but…
         I figured I couldn’t miss this opportunity."
@@ -645,6 +816,7 @@ label start:
         jump ending
     # show SCENE 4 (Mushi)-
     label m:
+        scene outside_mph
         n "Mushi! I’m over here!"
 
         m "Ayyyy, Nami! I’m coming!"
@@ -677,6 +849,7 @@ label start:
 
         "Nami frowns, upset."
 
+        scene mph
         an "The JC Night event then begins. Photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
 
         f "Thank you all for attending JC Night tonight!"
@@ -687,6 +860,7 @@ label start:
 
         f "Once again, thank you, and just enjoy the show!"
 
+        scene outside_mph
         "Outside of MPH, Nami and Mushi are together after the end of the event. Mushi’s anime girl models are being taken away by an unrecognized man."
 
         n "Mushi, where are all your babes going?"
@@ -730,6 +904,7 @@ label start:
     # show SCENE 4 (Aida)-
 
     label a:
+        scene lib_front
         a "Yo, sup, Nami? Do I… look weird tonight? (blushes)"
 
         n "(confused by Aida’s bashfulness) Yo, Aida! What’s the matter? You’re looking fine the way you are."
@@ -768,6 +943,7 @@ label start:
 
         a "Oh, it’s about to start. Let’s get in there, Nami."
 
+        scene mph
         an "Inside the MPH building, photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
 
         f "Thank you all for attending JC Night tonight!"
@@ -780,6 +956,7 @@ label start:
 
         "Outside of MPH, Nami and Aida are together after the end of the event."
 
+        scene outside_mph
         n "Damn, that was some really good acting in there!"
 
         a "Yeah, it was funny too! Hahahahaha!"
@@ -811,7 +988,7 @@ label start:
         n "So how about we do each other a favour and make one another feel a little less lonely tonight?"
 
         a "(amused; overjoyed) Hahahaha, let's!"
-
+        # Insert a background here >.< (MAYBE)
         "And so together, Aida and Nami set off on their journey to enjoy the rest of the night with someone special in their hearts. "
 
         jump ending
@@ -819,6 +996,7 @@ label start:
     # Scene 4 (Danny)-
 
     label d:
+        scene outside_mph
         n "Danny? You came? I thought you were asleep over at the club room."
 
         d "Ah, hey there, Nami. Well, let's just say I wanted to get some fresh air, y'know. Hehe."
@@ -838,7 +1016,7 @@ label start:
         an "Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
 
         d "Eyyy, what do you know, there's our cue! C'mon, let's head on in before the best seats are taken."
-
+        scene mph
         an "Inside the MPH building, photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
 
         f "Thank you all for attending JC Night tonight!"
@@ -849,6 +1027,7 @@ label start:
 
         f "Once again, thank you, and just enjoy the show!"
 
+        scene outside_mph
         "Outside of MPH, Nami and Aida are together after the end of the event."
 
         d "(hyped up) That… was… an epic performance! Plus having you by my side made it all the more awesome, that's for sure."
@@ -876,21 +1055,27 @@ label start:
     # ENDING
 
     label ending:
+        scene black
         "Nami's phone notification plays in the background."
 
         pm "Hey, Nami. Can we meet at MMU Stadium in a bit? There's something I need to tell you. Please come over quick."
 
+        scene stad_stairs
         n "Oh my God, my crush messaged me! I have to go now and meet up with her. I mean, who knows, maybe she's gonna admit she loves me back! Finally, the time has come at last… This time, I'm gonna make things happen!"
 
         "Nami runs down the stairs in his excitement and dashes through the road to make his way across the street."
 
+        scene white
         "A truck, however, fails to notice Nami trying to pass and in a flash, it hits Nami with high speed."
 
+        scene black
         "When Nami opens his eyes, the world is pitch black. He sees nothing but darkness."
 
         n "Oh God… Am… Am I dead? Where am I?"
 
-        "As he waited, tensed, in the darkness, time passes and slowly the void begins to clear. Though difficult to see, Nami picks up the sight of two people arguing. Grimly, he remembers."
+        "As he waited, tensed, in the darkness, time passes and slowly the void begins to clear."
+        scene argue
+        "Though difficult to see, Nami picks up the sight of two people arguing. Grimly, he remembers."
 
         n "Mom… Dad…"
 

@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 24: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/script.rpy", line 28: expected statement.
-    =======
-          ^
-
-File "game/script.rpy", line 34: expected statement.
-    >>>>>>> ca4bf22993cd756950205c8342f030ce29f99192
-                                                    ^
+File "game/script.rpy", line 293: end of line expected.
+    hide n_eyeroll, a-disgust, m_shock
+                  ^
 
 Ren'Py Version: Ren'Py 7.1.3.1092
-Sun Jul 21 10:52:16 2019
+Sun Jul 21 18:32:28 2019
