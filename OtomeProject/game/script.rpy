@@ -14,85 +14,140 @@ define f = Character("Farhan", color = "#000000",who_color="#000000")
 define pm = Character("Phone Message", color = "#000000",who_color="#000000")
 define an = Character("Annnoucer", color = "#fc0303",who_color="#fc0303")
 
-image n_sad = "n_dissapointed.png"
 label start:
 #SYNC CHECK
     #Show a background. This uses a placeholder by default, but you can
     #add a file (named either "bg room.png" or "bg room.jpg") to the
     #images directory to show it."""
 
-<<<<<<< HEAD
+#<<<<<<< HEAD
     scene bg room
     show n_sad
     #show eileen happy
-=======
+#=======
     scene park
 
     #show test at left
     show test3 at right
     show n_grin at left
->>>>>>> ca4bf22993cd756950205c8342f030ce29f99192
+#>>>>>>> ca4bf22993cd756950205c8342f030ce29f99192
     n "I love you so much! Please accept my love for you!"
+
     g "Ummmmm, no?"
 
     n "But why? I have a lot of money to spend on you. Just name it!"
+
     g "Pffft… Money? Why would I ask you for it?"
+
     g "I can just dig it up for myself. I don’t need no lousy man like you."
+
     n "No! My love for you is genuine so please… At least give me a chance?"
+
     g "How dare you even speak with me, you filth! Did you even do so much as take a look at yourself? You’re fat plus ugly! Ugh, you just plain disgust me. Try better, creep."
+
     n "But…"
+
     g "Ciao, Fatty. Good luck with your ugly, miserable and loveless life. Hahahahaha!"
+
     "The girl yeeted herself out of Nami’s sight."
+
     n "(thinking to himself)"
+
     n "What did I do to deserve this? This is the ump teenth time I’ve been rejected. This time, they’re giving me the nickname ‘Fatty’?"
+
     n "(sighs) What a day.. I gave up on searching for someone who could possibly love a joke like me. Just f*ck love, man. I’ll always be alone, no matter what."
 
     #scene one
     m "Hey… Hey you! You over there! You sorry sap of a man who just got rejected!"
+
     "(taken aback)"
+
     n "Wha-- what do you want? Wait, who even are you?! What's up with the mask, bro? To hide an ugliness like the one I have? Oh boy, if that’s the case, I 	wish I had a mask just like that."
+
     m "What, my mask? Oh no no no, my good man -- it’s not to hide any ol’ ugliness. Why would a charming, lavishing young man such as myself need to hide some non-existent hideousness? "
+
     m "What I’m hiding is… (whispers) Come closer."
+
     "Nami leans closer to the masked stranger."
+
     m "… Fame. Hehehehe."
+
     n "… What."
+
     m "Wherever I go, the mask stays with me. Just like a river with a turtle."
+
     n "What you just said makes no sense--"
+
     "(delighted grin)"
+
     m "Even my mom approved of it too!"
+
     n "Okay, you know what? Just stay away from me, man. I’m already having a bad day. I just got rejected by yet another girl so I’ve got no time for your jargon."
+
     m "Awww, you just got rejected? C’mon, being fat is not the worst. You’re all kinds of chubby, and that’s considered cute to some people."
+
     m "Have an optimistic outlook, man. Besides, didn’t you hear of that old wife’s tale? ‘There are plenty of fish in the sea’!"
+
     n "Just shut up, man. And plus, that’s an idiom, not some old wife’s tale."
+
     m "Hey hey hey. Whoaaaa, man. Okay, I’m going to tell you a lil’ secret. Y’know, a bro-to-bro kind of secret. Lean closer, I’ll tell you what it is:"
+
     m "(whispers) I know someone who’s gonna accept you, regardless of who you are."
+
     n "(surprised)"
+
     n "What? You know a girl?"
+
     m "Nahhh, hahaha! Didn’t we already establish that no sane girl wants you?"
+
     n "(disappointed) Oh."
+
     m "I’m talking about a group, a society. A holy matrimony of the greatest chaps who don’t care about money. It’s the…"
+
     #"Drum roll plays in the background."
+
     m "Japanese Cultural Society! Or JCS for short."  #(fanfares play in the background)
+
     n "The JCS? What? You mean that loser get-together community where unwanted virgins flock together to swoon over 2D girls that talk like a yelping penguin? "
+
     n "That shadowed group polluted by numbskulls people call ‘weebs’? I’m not interested in your club, bro. I’m desperate, but I’m not that desperate. Besides, do I even know who you are?"
+
     m "Oh c’mon, bro. We already got rejected like so many times. We need members too, so why not join the other rejects who are just like you? "
+
     m "We could always use a new buddy in our ranks -- a fella to add to our family, y’know? Chillax, I’ll take you there and you’re gonna have a great time."
+
     m "Besides, there are ladies there too. Maybe one of them will, I dunno, finally feel bad for you and endure a date with you."
+
     n "You know what? At this point, I just don’t care about girls anymore. But (sighs) fine, you got me at ‘family’. Alright, masked weirdo, tell me more about the JCS. What do they even do for starters?"
+
     m "Ahahahaha, well well well. I knew you’d take the right step! To enlighten you, I’ll say that we proud members of the JCS has got a lot of goodies and surprise events we do centering on, well, Japanese culture!"
+
     m "Some weeb bullsh*t, yeah, but not purely that. First off, we’ve got events we put our creative lil’ minds together to come up with: Japanese workshops and the upcoming JC Night, for example."
+
     m "We’ve also got trips and my favourite? The bonding camp, man. Hoooo boy, if that ain’t the best time to go fishing for hot chicks! My words impressing you, lover boy?"
+
     n "Hmmm, I guess there are a few trips that are grabbing my attention. Besides, I’ve already lost all hope in anything else I ever loved anyway so nothing worse can happen, I guess. (sighs)"
+
     n "Alright, bro, let’s try out your little club and see if it’s worth any of my time."
+
     m "Ayyyyy, that’s the spirit, man! Oh boy, Aida’s gonna be so proud of me for fishing in more fresh blood, hehehehe! Well chump, you just made the right choice. Like, no kidding."
+
     m "So, you busy right now? Like, really busy?"
+
     n "Nah, not really, but I’m about to head over back and get some decent sleep actually--"
+
     m "Bahhhh, sleep is for the weak! Be a man, lover boy! Come with me and join us in our secret JCS lair."
+
     n "What?! But my precious sleep…! Masked man, nooooo….!"
+
     "And without further ado and ignoring his pleas, the masked man dragged Nami over to the secret JCS lair."
+
     n "(thinking to himself) What a weird boy. He gives me the creeps already. Oh damn, I can’t even imagine how weirder his club must be with him already being like this."
+
     n "Gah, never mind. Nothing is better than giving it a try, right? At least, I hope I gain a chance to find some long term friendship over there."
+
     #scene two
+
     m "Kocchi, kocchi! We’re close -- just a few steps more!"
 
     n "What (pants) floor are we (pants) in now? We at heaven or something? Oh God, I can’t even feel my legs."
@@ -102,6 +157,7 @@ label start:
     n "I… (breathes heavily) need… (breathes heavily) water…"
 
     m "Oh, don’t be such a wuss. Did you even think for a second that I could be dying because I’m wearing this darn mask? Be considerate, man, sheesh."
+
     "Aida rushes out to check out the noise."
 
     a "What’s up with all the noise? Who’s there?! …Oh, Mushi, it’s just you. How very early of you to be at our club at this time. Didn’t I already tell you to not come bothering us with your jibber-jabber?!"
@@ -117,6 +173,7 @@ label start:
     m "Ouch!"
 
     a "Hmmmm, I like you! You’re a man of strength and refined honour for teaching the masked phantom discipline. Come in, samurai -- we have a club to burn!"
+
     "Aida pushes both Nami and Mushi into the club room."
 
     a "Sooooo, this is basically our club room… for now. I know it’s filled with dust and whatnot all over the place but hey, it’s a nice spot for us JCS folks!"
@@ -125,7 +182,7 @@ label start:
 
     m "Heck yeah, kaichou! Hontou ni subarashii~!"
 
-    a"So… who is this? This is not some spot for you and your goons to lepak around, Mushi."
+    a "So… who is this? This is not some spot for you and your goons to lepak around, Mushi."
 
     m "Oh yeah, whoops, I forgot about you. Alright, fellas, meet…"
 
@@ -160,6 +217,7 @@ label start:
 
     d "(meekly interrupts)
     Actually, we have four people in total. One of them isn’t here yet--"
+
     "Alis enters the club room."
 
     al "Yoo hoo, I’m here-- Oh em gee, who are you?! Are you someone new? Finally!"
@@ -294,9 +352,6 @@ label start:
     "The five of them all leave over to a mamak store to enjoy their time out and welcome the new member of their club.
      After a whole night’s part, Nami returns to his hostel exhausted and beat."
 
-
-
-
     n "(thinking to himself)
     Damn, those guys are insane. They are without a single care in the world but…
     I have to admit they’re really funny. Heh."
@@ -326,9 +381,7 @@ label start:
 
     d "(mumbles to himself)
     ‘Hajime yo’? The fu--"
-
 
-
     a "All right, guys! This week is an important week. It’s the week where freshmen are gonna start pouring in by massive numbers and we need people!"
 
     a "At the same time, I’ve got some good news: a senior from the club before us is gonna be having an event over at the MPH tonight called the ‘JC Night’."
@@ -343,20 +396,16 @@ label start:
 
     "Mushi, Alis and Nami nod slowly, plastered on their faces a classical derp face."
 
-
     a "(taken aback; surprised)
     What the eff, Mushi?! How long have you been there?"
 
-
     m "(pouting; saddened)
     S-since the very beginning. How did you not notice me? I’m sad now."
-
 
     al "Maybe if you weren’t putting on that ridiculous mask of yours, we’d
     notice you were there, like, right away. "
 
     al "Am I right or am I right, Nami? (looks expectantly at Nami, waiting for his agreement)"
-
 
     m "(sadly)
     I know that, Alis, but… my mom wouldn’t let me do that."
@@ -365,7 +414,6 @@ label start:
     Didn’t I tell you all to stay quiet?!"
 
     "Mushi, Alis and Nami immediately returned to being silent."
-
 
     a "If I may continue, JC Night is a performance night with tons of people coming over to check out the talented performers."
 
@@ -377,10 +425,8 @@ label start:
 
     "The others watched him in silence."
 
-
     m "(intimidated)
     Am I the only excited one here? Well, I wish I could join. (pouts sadly)"
-
 
     a "And… you guys are invited! See you at JC Night tonight, fellas! And whatever you do… don’t wear some dumbsh*t
      of an outfit in front of me, you got that?! "
@@ -389,19 +435,14 @@ label start:
 
     al "Aaaaand you don’t need to finish that line."
 
-
     d "(meekly)
     So, mind if I hang out with you guys during then--"
-
-
 
     al "(excited)
     Alright, who’s gonna be sitting beside me? Nami? Mushi? Aida? You three are coming right? Hehehehe!"
 
-
     d "(dejectedly; upset)
     What about me, guys…?"
-
 
     m "Well, sorry, guys. I can’t spend this clearly important event normally --
      I have to enjoy it with someone special, hehe."
@@ -409,7 +450,6 @@ label start:
     m "(speaks in a hushed tone) My mom."
 
     "Nami, Danny, Alis and Aida roll their eyes."
-
 
     n "(thinking to himself)
     JC Night, huh? So that means everyone is gonna be there… my crush included.
@@ -606,132 +646,254 @@ label start:
     # show SCENE 4 (Mushi)-
     label m:
         n "Mushi! I’m over here!"
+
         m "Ayyyy, Nami! I’m coming!"
+
         "Mushi walks over to where Nami is. Much to Nami’s disbelief and shock, Mushi is carrying with him a heap of anime girl models."
+
         n "What the--"
+
         m "Hahahahaha, meet all my babes! I spent every single penny I earned in my part time job to order them online. Here here, take a look at Chidori-san."
+
         "Mushi proceeds to show Nami one of his anime girl models. Nami leans forward, staring in interest."
+
         n "Damn… Hmm, mind if I have one of them?"
+
         m "(draws back with Chidori-san; aghast)"
+
         m "What, no! My mom wouldn’t allow that!"
+
         n "(pouts; disappointed) Meh. Mom this, mom that…"
+
         an "Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
+
         m "(to his anime girl models)
+
         Let’s go, babes. The grand event is about to start. (looks over to Nami) You coming along or what, Nami? Here, if you really are that desperate for a girl, I’ll lend you one."
+
         n "(excited) Does this mean I get one?!"
+
         m "(snapping) No!"
+
         "Nami frowns, upset."
+
         an "The JC Night event then begins. Photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
+
         f "Thank you all for attending JC Night tonight!"
+
         f "I just wanted to let you all know how happy I am over here in MMU and how will I never ever get this experience elsewhere."
+
         f "Most of all, a special thank you goes out to members and the high committee of the Japanese Cultural Society for backing me up for this event and really, having my back through thick and thin in general."
+
         f "Once again, thank you, and just enjoy the show!"
+
         "Outside of MPH, Nami and Mushi are together after the end of the event. Mushi’s anime girl models are being taken away by an unrecognized man."
+
         n "Mushi, where are all your babes going?"
+
         m "(sheepishly) Well, hehehe, they weren’t mine. I rented them out so if I wanna have them for a longer amount of time, I gotta pay quite the price."
+
         n "But why go through the hassle of renting it up if you had to cough up all that money?"
+
         "Mushi stays quiet for a long time, but Nami is unable to read his expression from the mask on his face."
+
         "The silence persists for about ten seconds, twenty, until Mushi alas comes together and decides to speak. His head is lowered, as if he’s embarrassed to say words."
+
         m "Because I… wanted to impress you."
+
         n "(surprised) Really?"
+
         m "(nods) Yeah. And another thing… I lied about the mask too. I don’t wear it to hide my fame."
+
         m "I put it on because truthfully, I’m afraid to know what people will think of me without this funny facade of mine. It’s frightening. I just wanna have friends that love me, y’know."
+
         "Nami freezes in his spot, surprised to see this side of Mushi whom he did not know of."
+
         n "Hey… I’m sure you’re a great guy, even without your mask, Mushi."
+
         m "(hopeful) Really?"
+
         n "Yeah! I mean, though the mask gimmick is kinda hilarious and all, the jokes you speak out everyday and such all come from the real Mushi."
+
         n "So doesn’t that mean the real person putting up a great show would be you yourself?"
+
         m "(sniffles happy tears) Heh. You’re right. You’re a real great pal, Nami! How about I treat you dinner for being that awesome guy you are?"
+
         n "Wow, seriously? Hehehe, are we going on a dinner date?"
+
         m "Sure, my man. At the same time, let me show you a little something -- me without my mask on. Just for your eyes only, for just a second…"
+
         n "Mushi proceeds to remove his mask for Nami to see."
+
         jump ending
 
     # show SCENE 4 (Aida)-
+
     label a:
         a "Yo, sup, Nami? Do I… look weird tonight? (blushes)"
+
         n "(confused by Aida’s bashfulness) Yo, Aida! What’s the matter? You’re looking fine the way you are."
+
         a "What?! Just ‘fine’? Ugh…"
+
         n "(thinking to himself) Aida seems a little weird today. I wonder what’s going on?"
+
         n "So… you already taken your meal?"
+
         a "(blankly) Uh what? Taken my meal? I mean, yes yes, I’ve already eaten."
+
         n "(uneasy) Um, hey, you seriously feeling alright?"
+
         a "(annoyed) What?! Yes, I am --  don’t ask me such a ridiculous question!"
+
         n "(frightened) Oh, okay okay!"
+
         "An eerie silence hangs between the two of them as they both remain still in the awkwardness of the situation."
+
         "Nami attempts to strike a conversation but much to his disappointment, he could think of no words to say what he wishes to."
+
         "After finally about a minute or two later, Aida decides to speak."
+
         a "Can I… tell you something, Nami?"
+
         n "(hesitantly) Uhhh, sure. Why?"
+
         a "I asked a lot of people to be my partner for the night to JC Night but one after another, I’m met with rejection after rejection."
+
         a "Be frank and honest with me here, Nami, but… I’m not too scary-looking, am I…?"
+
         n "(thinking to himself) Uh, yeah. Yeah, you are. (to Aida) Nah, you’re fine. Come on, let’s--"
+
         an "Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
+
         a "Oh, it’s about to start. Let’s get in there, Nami."
+
         an "Inside the MPH building, photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
+
         f "Thank you all for attending JC Night tonight!"
+
         f "I just wanted to let you all know how happy I am over here in MMU and how will I never ever get this experience elsewhere."
+
         f "Most of all, a special thank you goes out to members and the high committee of the Japanese Cultural Society for backing me up for this event and really, having my back through thick and thin in general."
+
         f "Once again, thank you, and just enjoy the show!"
+
         "Outside of MPH, Nami and Aida are together after the end of the event."
+
         n "Damn, that was some really good acting in there!"
+
         a "Yeah, it was funny too! Hahahahaha!"
+
         n "Yeah…"
+
         a "Haha, yeah…"
+
         "Nami looks Aida in the eyes, to which Aida returns the gaze. As quick as they had both caught one another staring, they looked away -- the awkwardness from before the event started ensuing. "
+
         "Unable to take its thickness in the atmosphere surrounding them, Nami burdens himself to speak. "
+
         n "So… wanna head out for dinner together? Maybe a late night movie over at the cinemas?"
+
         a "(perks up; squeals; excited) I wanna!"
+
         n "(thinking to himself) Wow, Aida is so very different when she's chipper. It's a lot more different than how she's always strict at the club. It's actually… pretty cute."
+
         n "Hahaha, alright then. On me!"
+
         a "But… (hesitantly) you sure you want to go out with me? I'm sure you must have a ton of other girls that you'd like better by your side."
+
         a "I mean, look at me. I'm just a silly, strict and bland-looking girl. There are other girls out there who overpower me by a mile away. Surely you'd want to be with them more…"
+
         n "Hey, listen to me. You're amazing just the way you are, all right? You look amazing too. So, of course I want to go out with you."
+
         n "Besides, I know how you feel when you say no one really wants to go out with you because no one wants to go out with me either."
+
         n "So how about we do each other a favour and make one another feel a little less lonely tonight?"
+
         a "(amused; overjoyed) Hahahaha, let's!"
+
         "And so together, Aida and Nami set off on their journey to enjoy the rest of the night with someone special in their hearts. "
+
         jump ending
+
     # Scene 4 (Danny)-
+
     label d:
         n "Danny? You came? I thought you were asleep over at the club room."
+
         d "Ah, hey there, Nami. Well, let's just say I wanted to get some fresh air, y'know. Hehe."
+
         d "By the way, if you don't mind, could you lend me some money? (looks at Nami pleasingly)"
+
         n "(confused) Uh, sure. Why though?"
+
         d "Well… I don't have enough money to attend the JC Night."
+
         n "Oof, really? If that's the case, man, I'll pay it for you. Think of it as my treat."
+
         d "(happily) Oh my God, you're the best friend a man could ever have, buddy!"
+
         n "Ahahaha, stop it, man, you're making me blush."
+
         an "Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
+
         d "Eyyy, what do you know, there's our cue! C'mon, let's head on in before the best seats are taken."
+
         an "Inside the MPH building, photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
+
         f "Thank you all for attending JC Night tonight!"
+
         f "I just wanted to let you all know how happy I am over here in MMU and how will I never ever get this experience elsewhere."
+
         f "Most of all, a special thank you goes out to members and the high committee of the Japanese Cultural Society for backing me up for this event and really, having my back through thick and thin in general."
+
         f "Once again, thank you, and just enjoy the show!"
+
         "Outside of MPH, Nami and Aida are together after the end of the event."
+
         d "(hyped up) That… was… an epic performance! Plus having you by my side made it all the more awesome, that's for sure."
+
         n "Yeah, it was amazing all right but… could you really get a good view of the stage while you were hiding underneath your chair the whole time?"
+
         d "Oh… Well, I can. It's not that I'm doing it to get a better view or something like that but I'm just… really shy when it comes to strangers. Admittedly, I'm weak when it comes to being in large crowds. I can't handle that."
+
         n "Ohh, so that explains why you're always sitting underneath things, even when I first came into the club room."
+
         n "You should try speaking with the people around you so they can get to know you more and realize just how awesome you are. If you keep this up, things will end up bad for you, bro."
+
         d "Hahahaha, nice try, man. But… believe it or not, I like being this way -- remaining in the shadows, hiding where no one can see me and all because from afar, I get to watch everyone succeed with the best of their efforts."
+
         d "It might not look like much but I assure you, it's a better view than you think. Nevertheless, thank you for caring about me, dude."
+
         n "Hmmm, alright. Whatever floats your boat, bro. As long as you're happy. It's no problem at all. Anyway, if you feel like sharing more stories to someone, feel free to drop by and enlighten me with your awesome tales."
+
         d "Alright, I'm game, man. Welp, I'm on my way back to the club room now. I've got some new games I've been dying to try out and I can't wait any longer. See you!"
+
         n "See you around the campus!"
+
         "Happy, the two boys part ways."
+
     # ENDING
+
     label ending:
         "Nami's phone notification plays in the background."
+
         pm "Hey, Nami. Can we meet at MMU Stadium in a bit? There's something I need to tell you. Please come over quick."
+
         n "Oh my God, my crush messaged me! I have to go now and meet up with her. I mean, who knows, maybe she's gonna admit she loves me back! Finally, the time has come at last… This time, I'm gonna make things happen!"
+
         "Nami runs down the stairs in his excitement and dashes through the road to make his way across the street."
+
         "A truck, however, fails to notice Nami trying to pass and in a flash, it hits Nami with high speed."
+
         "When Nami opens his eyes, the world is pitch black. He sees nothing but darkness."
+
         n "Oh God… Am… Am I dead? Where am I?"
+
         "As he waited, tensed, in the darkness, time passes and slowly the void begins to clear. Though difficult to see, Nami picks up the sight of two people arguing. Grimly, he remembers."
+
         n "Mom… Dad…"
+
         "Devoured by his memories, Nami begins to sob. In that darkness, no one listens to his cries. Truly, Nami is all alone. Just as he always is."
 
 
