@@ -13,6 +13,8 @@ define g = Character("Girl", color = "#a31a1a",who_color="#a31a1a")
 define f = Character("Farhan", color = "#000000",who_color="#000000")
 define pm = Character("Phone Message", color = "#000000",who_color="#000000")
 define an = Character("Annnoucer", color = "#fc0303",who_color="#fc0303")
+
+image n_sad = "n_dissapointed.png"
 label start:
 #SYNC CHECK
     #Show a background. This uses a placeholder by default, but you can
@@ -20,10 +22,11 @@ label start:
     #images directory to show it."""
 
     scene bg room
-
-    show eileen happy
+    show n_sad
+    #show eileen happy
     n "I love you so much! Please accept my love for you!"
     g "Ummmmm, no?"
+
     n "But why? I have a lot of money to spend on you. Just name it!"
     g "Pffft… Money? Why would I ask you for it?"
     g "I can just dig it up for myself. I don’t need no lousy man like you."
@@ -437,7 +440,9 @@ label start:
 
 
         n "(still surprised)
-        H-h-hi! (thinking to himself; stunned) Wow, I’ve never seen Alis like this before…"
+        H-h-hi!"
+
+        n "(thinking to himself; stunned) Wow, I’ve never seen Alis like this before…"
 
 
         al "(looks at Nami; confused)
@@ -601,8 +606,7 @@ label start:
         n "Damn… Hmm, mind if I have one of them?"
         m "(draws back with Chidori-san; aghast)"
         m "What, no! My mom wouldn’t allow that!"
-        n "(pouts; disappointed)"
-        n "Meh. Mom this, mom that…"
+        n "(pouts; disappointed) Meh. Mom this, mom that…"
         an "Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
         m "(to his anime girl models)
         Let’s go, babes. The grand event is about to start. (looks over to Nami) You coming along or what, Nami? Here, if you really are that desperate for a girl, I’ll lend you one."
