@@ -19,9 +19,11 @@ label start:
     #add a file (named either "bg room.png" or "bg room.jpg") to the
     #images directory to show it."""
 
-    scene bg room
+    scene park
 
-    show eileen happy
+    #show test at left
+    show test3 at right
+    show n_grin at left
     n "I love you so much! Please accept my love for you!"
     g "Ummmmm, no?"
     n "But why? I have a lot of money to spend on you. Just name it!"
@@ -466,7 +468,7 @@ label start:
         al "(confused)
         Ummm… no?"
 
-    
+
         "Nami frowns, disappointed by Alis’s response."
 
 
