@@ -21,9 +21,17 @@ label start:
     #add a file (named either "bg room.png" or "bg room.jpg") to the
     #images directory to show it."""
 
+<<<<<<< HEAD
     scene bg room
     show n_sad
     #show eileen happy
+=======
+    scene park
+
+    #show test at left
+    show test3 at right
+    show n_grin at left
+>>>>>>> ca4bf22993cd756950205c8342f030ce29f99192
     n "I love you so much! Please accept my love for you!"
     g "Ummmmm, no?"
 
@@ -471,7 +479,7 @@ label start:
         al "(confused)
         Ummm… no?"
 
-    
+
         "Nami frowns, disappointed by Alis’s response."
 
 
