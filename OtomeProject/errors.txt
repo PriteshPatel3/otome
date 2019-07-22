@@ -2,9 +2,18 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
 File "game/script.rpy", line 779: play requires a channel
     play "Ellinia Missing You.mp3"
          ^
 
 Ren'Py Version: Ren'Py 7.1.3.1092
 Mon Jul 22 01:32:34 2019
+=======
+File "game/script.rpy", line 763: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show farhan-speach
+    ^
+
+Ren'Py Version: Ren'Py 7.3.2.320
+Sun Jul 21 22:48:11 2019
+>>>>>>> 4ebd5e30c19635c8368f3b77dd90f8fd86803f6b
