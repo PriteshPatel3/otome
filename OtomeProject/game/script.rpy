@@ -34,6 +34,8 @@ label start:
     #show n_grin at left
 #>>>>>>> ca4bf22993cd756950205c8342f030ce29f99192
 
+#music- DYATHON - DESOLATION
+    play music "DYATHON - Desolation.mp3"
     n "I love you so much! Please accept my love for you!"
     show n_dissapointed at left:
         alpha 0.7
@@ -83,18 +85,22 @@ label start:
     # hide the girl
     "The girl yeeted herself out of Nami’s sight."
     scene black
+#music- https://www.youtube.com/watch?v=Eb6UFuNITB8 (maybe not)
     show n_dissapointed
     n "(thinking to himself)"
 
     n "What did I do to deserve this? This is the ump teenth time I’ve been rejected. This time, they’re giving me the nickname ‘Fatty’?"
 
     n "(sighs) What a day.. I gave up on searching for someone who could possibly love a joke like me. Just f*ck love, man. I’ll always be alone, no matter what."
-
+    stop music
+#music- Henesy Rest N Peace
     #scene one
     scene white
+    ""
+    scene park
+    play music "Henesys Rest N Peace.mp3"
     m "Hey… Hey you! You over there! You sorry sap of a man who just got rejected!"
 
-    scene park
     show m
     "(taken aback)"
     show m at left:
@@ -188,7 +194,8 @@ label start:
     hide n_dissapointed
     hide m
     show n_eyeroll
-
+#music Henesys Floral Life
+    play music "Henesys Floral Life.mp3"
     n "The JCS? What? You mean that loser get-together community where unwanted virgins flock together to swoon over 2D girls that talk like a yelping penguin? "
 
     n "That shadowed group polluted by numbskulls people call ‘weebs’? I’m not interested in your club, bro. I’m desperate, but I’m not that desperate. Besides, do I even know who you are?"
@@ -214,7 +221,8 @@ label start:
     show m_thumbup at left
     hide m_love
     m "Ahahahaha, well well well. I knew you’d take the right step! To enlighten you, I’ll say that we proud members of the JCS has got a lot of goodies and surprise events we do centering on, well, Japanese culture!"
-
+#japanese traditional music/naruto music also works I guess?
+    play music "naruto.mp3"
     m "Some weeb bullsh*t, yeah, but not purely that. First off, we’ve got events we put our creative lil’ minds together to come up with: Japanese workshops and the upcoming JC Night, for example."
 
     m "We’ve also got trips and my favourite? The bonding camp, man. Hoooo boy, if that ain’t the best time to go fishing for hot chicks! My words impressing you, lover boy?"
@@ -230,7 +238,8 @@ label start:
     show n_dissapointed at right:
         alpha 0.7
     m "Ayyyyy, that’s the spirit, man! Oh boy, Aida’s gonna be so proud of me for fishing in more fresh blood, hehehehe! Well chump, you just made the right choice. Like, no kidding."
-
+#change interesting music
+    play music "Henesys Rest N Peace.mp3"
     hide m_thumbup
     hide n_dissapointed
     show m
@@ -253,8 +262,10 @@ label start:
 
     n "Gah, never mind. Nothing is better than giving it a try, right? At least, I hope I gain a chance to find some long term friendship over there."
 
+#music kerning city bad guys
     #scene two
     scene stairway
+    play music "Kerning City Bad Guys.mp3"
     m "Kocchi, kocchi! We’re close -- just a few steps more!"
     show n_sad
     n "What (pants) floor are we (pants) in now? We at heaven or something? Oh God, I can’t even feel my legs."
@@ -267,7 +278,8 @@ label start:
     n "I… (breathes heavily) need… (breathes heavily) water…"
 
     m "Oh, don’t be such a wuss. Did you even think for a second that I could be dying because I’m wearing this darn mask? Be considerate, man, sheesh."
-
+# music henesy hunting ground
+    play music "Henesys Hunting Grounds.mp3"
     "Aida rushes out to check out the noise."
     show a-you
     a "What’s up with all the noise? Who’s there?! …Oh, Mushi, it’s just you. How very early of you to be at our club at this time. Didn’t I already tell you to not come bothering us with your jibber-jabber?!"
@@ -295,7 +307,8 @@ label start:
     hide m_shock
     "Aida pushes both Nami and Mushi into the club room."
     scene club
-
+#music Ereve Queen's Garden
+    play music "Eos Tower.mp3"
     show a-smile
     a "Sooooo, this is basically our club room… for now. I know it’s filled with dust and whatnot all over the place but hey, it’s a nice spot for us JCS folks!"
 
@@ -358,6 +371,8 @@ label start:
     d "(meekly interrupts)
     Actually, we have four people in total. One of them isn’t here yet--"
     hide d-excited
+    #music cute
+    play music "Cute.mp3"
     "Alis enters the club room."
     show al-excited at right
     al "Yoo hoo, I’m here-- Oh em gee, who are you?! Are you someone new? Finally!"
@@ -419,9 +434,12 @@ label start:
     hide n_dissapointed
     hide a-blushing
     show n_happy
+
     n"(panics; surprised)
     Ahh, okay okay! I’ll do this challenge. I mean, this will definitely work out if we put our heads together, right guys?"
 
+# music kerning city subway
+    play music "Kerning City Subway.mp3"
     "Nami is met with silence."
 
     n"Um… guys?"
@@ -479,9 +497,10 @@ label start:
     d "(relieved)
     Yes, finally. A more peaceful party."
 
-
+# normal music(ms)
     hide d-excited
     show a-shy
+    play music "Ludibrium Flying in a Blue Dream.mp3"
     a "Anyway, welcome to the club, Nami! Don’t hesitate to ask us anything about the club.
      Let’s not waste our golden opportunity to form a nice, big family here!
       I’m sure you won’t be wasting a single second here."
@@ -517,6 +536,8 @@ label start:
     hide a-disgust
     d "(dying in the background)
     Help… me…"
+#normal music(ms)
+    stop music
     scene black
     "The five of them all leave over to a mamak store to enjoy their time out and welcome the new member of their club.
      After a whole night’s part, Nami returns to his hostel exhausted and beat."
@@ -530,9 +551,9 @@ label start:
     let’s see if I can put in the best I can for it."
     scene white
     "Time jumps to three months afterwards."
-
+#interesting music(ms)
     #show SCENE 3
-
+    play music "Henesys Rest N Peace.mp3"
     "In the club room of the JCS, Nami enters."
 
     scene club
@@ -584,7 +605,8 @@ label start:
     Didn’t I tell you all to stay quiet?!"
 
     "Mushi, Alis and Nami immediately returned to being silent."
-
+#japanese traditional music/anime music
+    play music "Renai Circulation.mp3"
     a "If I may continue, JC Night is a performance night with tons of people coming over to check out the talented performers."
 
     a "What kind of performance, you might ask? Since, like, the dawn of time, JC Night has performances involving acting,
@@ -620,7 +642,7 @@ label start:
     m "(speaks in a hushed tone) My mom."
 
     "Nami, Danny, Alis and Aida roll their eyes."
-
+#thinking music
     n "(thinking to himself)
     JC Night, huh? So that means everyone is gonna be there… my crush included.
     If that’s the case, I’m definitely not missing this. Plus, I’m gonna be meeting a lot of new people
@@ -644,6 +666,8 @@ label start:
     #show SCENE 4 (Alis)-
     label al:
         scene outside_mph
+        # cavabien henesy music
+        play music "Henesys Hunting Grounds.mp3"
         "At the entrance of the MPH, Nami is waiting for Alis by the door."
 
         al "(sneaks up behind Nami; surprises him)
@@ -711,7 +735,9 @@ label start:
 
 
         al "Kocchi, kocchi!"
+        # ms music
         scene mph
+        play music "UponTheSky (During the Ride to Orbis).mp3"
         an "Inside the MPH building, photos of the previous JC Nights are being presented.
          Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
 
@@ -748,11 +774,12 @@ label start:
 
         al "(happy)
         Hooray! Well come on, then! This way!"
-
+#relaxing ms music
         scene otw_quiet
+        play music "Ellinia Missing You.mp3"
         "Both Nami and Alis set out on a walk. There, they spent time indulging in petty banter and light jokes.
          After approximately fifteen minutes, Alis has led Nami into a quiet part of Cyberjaya."
-
+#music stopped
         scene grave
         al "(in a sombre voice; serious)
         You know, it was just a coincidence that the JC Night for this year was on this particular night but…
@@ -769,7 +796,8 @@ label start:
         n "(waits in anticipation)
         My…?"
 
-
+#sad music
+        play music "Spirited Away The Name Of Life.mp3"
         al "(begins to tear up)
         ...My cat’s grave. My cat Kelabu. He used to be nothing but family to me ever since I left elementary school.
         I loved him so much, we were practically inseparable."
@@ -793,11 +821,13 @@ label start:
 
         al "(sniffles)
         Where?"
-
+        stop music
+#music stopped
         "Nami proceeds to show a bunch of memes for Alis to see.
         It takes her a while to start smiling but when she finally does,
         it was not long until she starts to laugh as well."
-
+#cheerful music
+        play music "Florina Beach Beachway.mp3"
         "Ten minutes after the both of them had laughed over a couple of memes,
            Nami returns to ask her of her wellbeing. "
 
@@ -815,8 +845,11 @@ label start:
         Promise."
         jump ending
     # show SCENE 4 (Mushi)-
+
     label m:
         scene outside_mph
+        # funny/weird music(ms)
+        play music "Omega Sector Finding Forest.mp3"
         n "Mushi! I’m over here!"
 
         m "Ayyyy, Nami! I’m coming!"
@@ -848,8 +881,9 @@ label start:
         m "(snapping) No!"
 
         "Nami frowns, upset."
-
+#ms music
         scene mph
+        play music "UponTheSky (During the Ride to Orbis).mp3"
         an "The JC Night event then begins. Photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
 
         f "Thank you all for attending JC Night tonight!"
@@ -859,8 +893,9 @@ label start:
         f "Most of all, a special thank you goes out to members and the high committee of the Japanese Cultural Society for backing me up for this event and really, having my back through thick and thin in general."
 
         f "Once again, thank you, and just enjoy the show!"
-
+#ms music wee
         scene outside_mph
+        play music "Henesys Floral Life.mp3"
         "Outside of MPH, Nami and Mushi are together after the end of the event. Mushi’s anime girl models are being taken away by an unrecognized man."
 
         n "Mushi, where are all your babes going?"
@@ -870,9 +905,10 @@ label start:
         n "But why go through the hassle of renting it up if you had to cough up all that money?"
 
         "Mushi stays quiet for a long time, but Nami is unable to read his expression from the mask on his face."
-
+#music stopped
         "The silence persists for about ten seconds, twenty, until Mushi alas comes together and decides to speak. His head is lowered, as if he’s embarrassed to say words."
-
+#lovely music
+        play music "Cute.mp3"
         m "Because I… wanted to impress you."
 
         n "(surprised) Really?"
@@ -903,8 +939,10 @@ label start:
 
     # show SCENE 4 (Aida)-
 
+#very uwu music interestinggg
     label a:
         scene lib_front
+        play music "Cute.mp3"
         a "Yo, sup, Nami? Do I… look weird tonight? (blushes)"
 
         n "(confused by Aida’s bashfulness) Yo, Aida! What’s the matter? You’re looking fine the way you are."
@@ -912,7 +950,8 @@ label start:
         a "What?! Just ‘fine’? Ugh…"
 
         n "(thinking to himself) Aida seems a little weird today. I wonder what’s going on?"
-
+#awkward music
+        play music "Awkward Instrumental Comedy Music.mp3"
         n "So… you already taken your meal?"
 
         a "(blankly) Uh what? Taken my meal? I mean, yes yes, I’ve already eaten."
@@ -922,13 +961,14 @@ label start:
         a "(annoyed) What?! Yes, I am --  don’t ask me such a ridiculous question!"
 
         n "(frightened) Oh, okay okay!"
-
+        stop music
         "An eerie silence hangs between the two of them as they both remain still in the awkwardness of the situation."
 
         "Nami attempts to strike a conversation but much to his disappointment, he could think of no words to say what he wishes to."
+#piano music (alit calm and sad)
 
         "After finally about a minute or two later, Aida decides to speak."
-
+        play music ""
         a "Can I… tell you something, Nami?"
 
         n "(hesitantly) Uhhh, sure. Why?"
@@ -942,8 +982,9 @@ label start:
         an "Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
 
         a "Oh, it’s about to start. Let’s get in there, Nami."
-
+#ms music
         scene mph
+        play music "UponTheSky (During the Ride to Orbis).mp3"
         an "Inside the MPH building, photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
 
         f "Thank you all for attending JC Night tonight!"
@@ -953,10 +994,11 @@ label start:
         f "Most of all, a special thank you goes out to members and the high committee of the Japanese Cultural Society for backing me up for this event and really, having my back through thick and thin in general."
 
         f "Once again, thank you, and just enjoy the show!"
-
+#relaxing music ms
+        scene outside_mph
+        play music "Henesys Rest N Peace.mp3"
         "Outside of MPH, Nami and Aida are together after the end of the event."
 
-        scene outside_mph
         n "Damn, that was some really good acting in there!"
 
         a "Yeah, it was funny too! Hahahahaha!"
@@ -973,6 +1015,7 @@ label start:
 
         a "(perks up; squeals; excited) I wanna!"
 
+        play music "Cute.mp3"
         n "(thinking to himself) Wow, Aida is so very different when she's chipper. It's a lot more different than how she's always strict at the club. It's actually… pretty cute."
 
         n "Hahaha, alright then. On me!"
@@ -997,6 +1040,7 @@ label start:
 
     label d:
         scene outside_mph
+        play music Florina Beach Beachway.mp3
         n "Danny? You came? I thought you were asleep over at the club room."
 
         d "Ah, hey there, Nami. Well, let's just say I wanted to get some fresh air, y'know. Hehe."
@@ -1016,6 +1060,7 @@ label start:
         an "Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
 
         d "Eyyy, what do you know, there's our cue! C'mon, let's head on in before the best seats are taken."
+        play music "UponTheSky (During the Ride to Orbis).mp3"
         scene mph
         an "Inside the MPH building, photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
 
@@ -1026,18 +1071,20 @@ label start:
         f "Most of all, a special thank you goes out to members and the high committee of the Japanese Cultural Society for backing me up for this event and really, having my back through thick and thin in general."
 
         f "Once again, thank you, and just enjoy the show!"
-
+#cheerful music
         scene outside_mph
+        play music "Omega Sector Finding Forest.mp3"
         "Outside of MPH, Nami and Aida are together after the end of the event."
 
         d "(hyped up) That… was… an epic performance! Plus having you by my side made it all the more awesome, that's for sure."
 
         n "Yeah, it was amazing all right but… could you really get a good view of the stage while you were hiding underneath your chair the whole time?"
+#peaceful music
 
         d "Oh… Well, I can. It's not that I'm doing it to get a better view or something like that but I'm just… really shy when it comes to strangers. Admittedly, I'm weak when it comes to being in large crowds. I can't handle that."
 
         n "Ohh, so that explains why you're always sitting underneath things, even when I first came into the club room."
-
+        play music "Singapore Boat Quay Town.mp3"
         n "You should try speaking with the people around you so they can get to know you more and realize just how awesome you are. If you keep this up, things will end up bad for you, bro."
 
         d "Hahahaha, nice try, man. But… believe it or not, I like being this way -- remaining in the shadows, hiding where no one can see me and all because from afar, I get to watch everyone succeed with the best of their efforts."
@@ -1056,16 +1103,19 @@ label start:
 
     label ending:
         scene black
+        #phone noti rings
+        play music "notification_sound.mp3"
         "Nami's phone notification plays in the background."
 
         pm "Hey, Nami. Can we meet at MMU Stadium in a bit? There's something I need to tell you. Please come over quick."
-
+        #hooray sound effect
+        play music "Children_Yay_Sound_Effect.mp3"
         scene stad_stairs
         n "Oh my God, my crush messaged me! I have to go now and meet up with her. I mean, who knows, maybe she's gonna admit she loves me back! Finally, the time has come at last… This time, I'm gonna make things happen!"
 
         "Nami runs down the stairs in his excitement and dashes through the road to make his way across the street."
-
         scene white
+        play music "Car Screech And Crash.mp3"
         "A truck, however, fails to notice Nami trying to pass and in a flash, it hits Nami with high speed."
 
         scene black
@@ -1076,7 +1126,8 @@ label start:
         "As he waited, tensed, in the darkness, time passes and slowly the void begins to clear."
         scene argue
         "Though difficult to see, Nami picks up the sight of two people arguing. Grimly, he remembers."
-
+#sad violin music playsss
+        play musics "sadcredits01.mp3"
         n "Mom… Dad…"
 
         "Devoured by his memories, Nami begins to sob. In that darkness, no one listens to his cries. Truly, Nami is all alone. Just as he always is."
