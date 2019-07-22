@@ -1,7 +1,7 @@
-﻿# The script of the game goes in this file.
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+
+
+
 
 define e = Character("Eileen")
 define n = Character("Nami ", color = "#095ce2", who_color="#095ce2")
@@ -16,46 +16,46 @@ define an = Character("Annnoucer", color = "#fc0303",who_color="#fc0303")
 
 
 label start:
-#SYNC CHECK
-    #Show a background. This uses a placeholder by default, but you can
-    #add a file (named either "bg room.png" or "bg room.jpg") to the
-    #images directory to show it."""
 
-#<<<<<<< HEAD
+
+
+
+
+
     scene bg room
     show n_sad
-    #show eileen happy
-#=======
+
+
     scene park
     show n_dissapointed
 
-    #show test at left
-    #show test3 at right
-    #show n_grin at left
-#>>>>>>> ca4bf22993cd756950205c8342f030ce29f99192
 
-#music- DYATHON - DESOLATION
+
+
+
+
+
     play music "DYATHON - Desolation.mp3"
     n "I love you so much! Please accept my love for you!"
     show n_dissapointed at left:
         alpha 0.7
 
-    # show the girl at right
+
 
     g "Ummmmm, no?"
 
     show n_dissapointed at left:
         alpha 1
 
-    # show the girl at right:
-        #alpha 0.7
+
+
 
     n "But why? I have a lot of money to spend on you. Just name it!"
 
     show n_dissapointed at left:
         alpha 0.7
-    # show the girl at right:
-        #alpha 1
+
+
 
     g "Pffft… Money? Why would I ask you for it?"
 
@@ -63,29 +63,29 @@ label start:
 
     hide n_dissapointed
     show n_sad at left:
-    # show the girl at right:
-        #alpha 0.7
+
+
 
     n "No! My love for you is genuine so please… At least give me a chance?"
     show n_sad at left:
         alpha 0.7
-    # show the girl at right:
-        #alpha 1
+
+
     g "How dare you even speak with me, you filth! Did you even do so much as take a look at yourself? You’re fat plus ugly! Ugh, you just plain disgust me. Try better, creep."
     show n_sad at left:
         alpha 1
-    # show the girl at right:
-        #alpha 0.7
+
+
     n "But…"
     show n_sad at left:
         alpha 0.7
-    #show the girl at right:
-        #alpha 1
+
+
     g "Ciao, Fatty. Good luck with your ugly, miserable and loveless life. Hahahahaha!"
-    # hide the girl
+
     "The girl yeeted herself out of Nami’s sight."
     scene black
-#music- https://www.youtube.com/watch?v=Eb6UFuNITB8 (maybe not)
+
     show n_dissapointed
     n "(thinking to himself)"
 
@@ -93,8 +93,8 @@ label start:
 
     n "(sighs) What a day.. I gave up on searching for someone who could possibly love a joke like me. Just f*ck love, man. I’ll always be alone, no matter what."
     stop music
-#music- Henesy Rest N Peace
-    #scene one
+
+
     scene white
     ""
     scene park
@@ -188,13 +188,13 @@ label start:
     show m at right
     m "I’m talking about a group, a society. A holy matrimony of the greatest chaps who don’t care about money. It’s the…"
 
-    #"Drum roll plays in the background."
 
-    m "Japanese Cultural Society! Or JCS for short."  #(fanfares play in the background)
+
+    m "Japanese Cultural Society! Or JCS for short."
     hide n_dissapointed
     hide m
     show n_eyeroll
-#music Henesys Floral Life
+
     play music "Henesys Floral Life.mp3"
     n "The JCS? What? You mean that loser get-together community where unwanted virgins flock together to swoon over 2D girls that talk like a yelping penguin? "
 
@@ -221,7 +221,7 @@ label start:
     show m_thumbup at left
     hide m_love
     m "Ahahahaha, well well well. I knew you’d take the right step! To enlighten you, I’ll say that we proud members of the JCS has got a lot of goodies and surprise events we do centering on, well, Japanese culture!"
-#japanese traditional music/naruto music also works I guess?
+
     play music "naruto.mp3"
     m "Some weeb bullsh*t, yeah, but not purely that. First off, we’ve got events we put our creative lil’ minds together to come up with: Japanese workshops and the upcoming JC Night, for example."
 
@@ -238,7 +238,7 @@ label start:
     show n_dissapointed at right:
         alpha 0.7
     m "Ayyyyy, that’s the spirit, man! Oh boy, Aida’s gonna be so proud of me for fishing in more fresh blood, hehehehe! Well chump, you just made the right choice. Like, no kidding."
-#change interesting music
+
     play music "Henesys Rest N Peace.mp3"
     hide m_thumbup
     hide n_dissapointed
@@ -262,8 +262,8 @@ label start:
 
     n "Gah, never mind. Nothing is better than giving it a try, right? At least, I hope I gain a chance to find some long term friendship over there."
 
-#music kerning city bad guys
-    #scene two
+
+
     scene stairway
     play music "Kerning City Bad Guys.mp3"
     m "Kocchi, kocchi! We’re close -- just a few steps more!"
@@ -278,7 +278,7 @@ label start:
     n "I… (breathes heavily) need… (breathes heavily) water…"
 
     m "Oh, don’t be such a wuss. Did you even think for a second that I could be dying because I’m wearing this darn mask? Be considerate, man, sheesh."
-# music henesy hunting ground
+
     play music "Henesys Hunting Grounds.mp3"
     "Aida rushes out to check out the noise."
     show a-you
@@ -307,7 +307,7 @@ label start:
     hide m_shock
     "Aida pushes both Nami and Mushi into the club room."
     scene club
-#music Ereve Queen's Garden
+
     play music "Eos Tower.mp3"
     show a-smile
     a "Sooooo, this is basically our club room… for now. I know it’s filled with dust and whatnot all over the place but hey, it’s a nice spot for us JCS folks!"
@@ -343,8 +343,8 @@ label start:
     hide m_shock
 
     show a-shy at left
-    a "(interrupts; excited)
-    Hi, my name is Aida! I’m the president of the JCS and this guy over here is Danny."
+    a "(interrupts; excited) Hi, my name is Aida! I’m the president of the JCS and this guy over here is Danny."
+
 
     n "Huh? Danny? I only see you and Mushi…"
     show d-under table
@@ -362,24 +362,24 @@ label start:
     show n_crossarm at right
     n "Wait, so hold on. How many people are there in this club? Just the three of you? How is this club going to run with just the three of you? I expected more people -- maybe at least… twenty?"
     show a-angry at left
-    a "(offended)
-    You got a problem with that?!"
+    a "(offended) You got a problem with that?!"
+
 
     hide a-angry
     hide n_crossarm
     show d-excited
-    d "(meekly interrupts)
-    Actually, we have four people in total. One of them isn’t here yet--"
+    d "(meekly interrupts) Actually, we have four people in total. One of them isn’t here yet--"
+
     hide d-excited
-    #music cute
+
     play music "Cute.mp3"
     "Alis enters the club room."
     show al-excited at right
     al "Yoo hoo, I’m here-- Oh em gee, who are you?! Are you someone new? Finally!"
 
     show n_smile at left
-    n "(awkward)
-    Um… Hi there. I’m Nami. Yogoshiwho."
+    n "(awkward) Um… Hi there. I’m Nami. Yogoshiwho."
+
 
     al "(cheerful) Hi, I’m Alis! I’m not really good with Japanese but hey, I’ll take that intro!"
     hide al-excited
@@ -402,8 +402,8 @@ label start:
     show d-sad
     d "Ah shit, here we go again."
     hide d-sad
-    a "(stares crossed at Mushi)
-    Mushi, you just brought some random guy to this club without giving him all the details? You for real?"
+    a "(stares crossed at Mushi) Mushi, you just brought some random guy to this club without giving him all the details? You for real?"
+
 
     "Mushi remains silent but looks ahead with a derp face."
 
@@ -415,8 +415,8 @@ label start:
     a "(looks at Nami) Alright, I’m only going to say this once, so get it stuck in your head. Our club here is about to be disbanded because as you can see, we are lacking members."
     a "In short, we need your help in getting it to grow so it won’t get disbanded. You ready for this challenge?"
 
-    al "(cheers in the background)
-    Yay, new members!"
+    al "(cheers in the background) Yay, new members!"
+
 
     "Mushi continues staring off with a derp face."
     hide n
@@ -424,41 +424,41 @@ label start:
     n "Mushi, need a little help here!"
 
 
-    m"(sustained derp face)
-    If I speak, she’ll kill me…"
+    m "(sustained derp face) If I speak, she’ll kill me…"
 
 
-    a"(intervenes)
-    So are you up for the challenge or not?!"
+
+    a "(intervenes) So are you up for the challenge or not?!"
+
 
     hide n_dissapointed
     hide a-blushing
     show n_happy
 
-    n"(panics; surprised)
-    Ahh, okay okay! I’ll do this challenge. I mean, this will definitely work out if we put our heads together, right guys?"
+    n "(panics; surprised) Ahh, okay okay! I’ll do this challenge. I mean, this will definitely work out if we put our heads together, right guys?"
 
-# music kerning city subway
+
+
     play music "Kerning City Subway.mp3"
     "Nami is met with silence."
 
-    n"Um… guys?"
+    n "Um… guys?"
     hide n_happy
     show n_dissapointed
-    "Nami looks over to Danny, Alis and Mushi, whom are all putting on the exact same derp face Mushi had earlier."
+    "Nami looks over to Danny, Alis and Mushi, whom are all putting on the exact same derp face Mushi had earlier. "
 
-    n "(thinking to himself)
-    Oh boy…"
+    n "(thinking to himself) Oh boy…"
+
 
     show a-smile at right
-    a "Good choice! Well team, now that we’ve added another number to our midsts,
-    let’s begin our quest to find more people. We shall STRIVE! Nami,
-    get over here and fill out this form."
+    a "Good choice! Well team, now that we’ve added another number to our midsts, let’s begin our quest to find more people. We shall STRIVE! Nami, get over here and fill out this form."
+
+
 
     show al-excited at left
     hide n_dissapointed
-    al "(cheerfully)
-    We are soooo gonna party tonight!"
+    al "(cheerfully) We are soooo gonna party tonight!"
+
 
     hide a-smile
     show a-dumbface at right
@@ -479,12 +479,12 @@ label start:
     hide a-dumbface
     hide m_hip
     show a-smile
-    a "Oh yeah… Considering I’m poor right now, we can’t go for an all-out karaoke party.
-     Welp, if that’s the case, how about we take a rest over at the LP and gaze up at the beautiful stars over MMU?"
+    a "Oh yeah… Considering I’m poor right now, we can’t go for an all-out karaoke party. Welp, if that’s the case, how about we take a rest over at the LP and gaze up at the beautiful stars over MMU?"
+
 
     a "Oh, and don’t forget about Deen’s amazing butter chicken too!"
 
-    #KIV  &
+
     show al-dumbface
     show m_think at left
     show a-smile at right
@@ -494,28 +494,28 @@ label start:
     hide m_think
     hide a-smile
     show d-excited
-    d "(relieved)
-    Yes, finally. A more peaceful party."
+    d "(relieved) Yes, finally. A more peaceful party."
 
-# normal music(ms)
+
+
     hide d-excited
     show a-shy
     play music "Ludibrium Flying in a Blue Dream.mp3"
-    a "Anyway, welcome to the club, Nami! Don’t hesitate to ask us anything about the club.
-     Let’s not waste our golden opportunity to form a nice, big family here!
-      I’m sure you won’t be wasting a single second here."
+    a "Anyway, welcome to the club, Nami! Don’t hesitate to ask us anything about the club. Let’s not waste our golden opportunity to form a nice, big family here! I’m sure you won’t be wasting a single second here."
+
+
 
     show m hurray at left
-    m "(excited)
-    Welcomeeeeeee!"
+    m "(excited) Welcomeeeeeee!"
+
 
     show al-excited at right
-    al "(equally excited)
-    Yayyyyyyy~!"
+    al "(equally excited) Yayyyyyyy~!"
 
 
-    d "(muttering)
-    Make sure you do your work--"
+
+    d "(muttering) Make sure you do your work--"
+
     hide m hurray
     hide al-excited
     hide a-shy
@@ -530,29 +530,29 @@ label start:
     hide m_sad
     hide al-shy at right
     show a-disgust
-    a "(sighs)
-    Kids these days… None of them know how to even appreciate money."
+    a "(sighs) Kids these days… None of them know how to even appreciate money."
+
 
     hide a-disgust
-    d "(dying in the background)
-    Help… me…"
-#normal music(ms)
+    d "(dying in the background) Help… me…"
+
+
     stop music
     scene black
-    "The five of them all leave over to a mamak store to enjoy their time out and welcome the new member of their club.
-     After a whole night’s part, Nami returns to his hostel exhausted and beat."
+    "The five of them all leave over to a mamak store to enjoy their time out and welcome the new member of their club. After a whole night’s part, Nami returns to his hostel exhausted and beat."
+
 
     show n_smirk
-    n "(thinking to himself)
-    Damn, those guys are insane. They are without a single care in the world but…
-    I have to admit they’re really funny. Heh."
+    n "(thinking to himself) Damn, those guys are insane. They are without a single care in the world but… I have to admit they’re really funny. Heh."
 
-    n "I hope I can be like them one day too. Anyway, now that I’ve got myself into this new club,
-    let’s see if I can put in the best I can for it."
+
+
+    n "I hope I can be like them one day too. Anyway, now that I’ve got myself into this new club, let’s see if I can put in the best I can for it."
+
     scene white
     "Time jumps to three months afterwards."
-#interesting music(ms)
-    #show SCENE 3
+
+
     play music "Henesys Rest N Peace.mp3"
     "In the club room of the JCS, Nami enters."
 
@@ -566,13 +566,13 @@ label start:
     al "Whooooooa, who is it? You’re hiding someone, aren’t you? C’mon, tell me, tell me!"
 
 
-    a "(yells)
-    Silence! Have a seat! We’re about to start an important meeting so hajime yo!"
+    a "(yells) Silence! Have a seat! We’re about to start an important meeting so hajime yo!"
 
 
-    d "(mumbles to himself)
-    ‘Hajime yo’? The fu--"
-
+
+    d "(mumbles to himself) ‘Hajime yo’? The fu--"
+
+
     a "All right, guys! This week is an important week. It’s the week where freshmen are gonna start pouring in by massive numbers and we need people!"
 
     a "At the same time, I’ve got some good news: a senior from the club before us is gonna be having an event over at the MPH tonight called the ‘JC Night’."
@@ -587,74 +587,74 @@ label start:
 
     "Mushi, Alis and Nami nod slowly, plastered on their faces a classical derp face."
 
-    a "(taken aback; surprised)
-    What the eff, Mushi?! How long have you been there?"
+    a "(taken aback; surprised) What the eff, Mushi?! How long have you been there?"
 
-    m "(pouting; saddened)
-    S-since the very beginning. How did you not notice me? I’m sad now."
 
-    al "Maybe if you weren’t putting on that ridiculous mask of yours, we’d
-    notice you were there, like, right away. "
+    m "(pouting; saddened) S-since the very beginning. How did you not notice me? I’m sad now."
+
+
+    al "Maybe if you weren’t putting on that ridiculous mask of yours, we’d notice you were there, like, right away. "
+
 
     al "Am I right or am I right, Nami? (looks expectantly at Nami, waiting for his agreement)"
 
-    m "(sadly)
-    I know that, Alis, but… my mom wouldn’t let me do that."
+    m "(sadly) I know that, Alis, but… my mom wouldn’t let me do that."
 
-    a "(interrupts)
-    Didn’t I tell you all to stay quiet?!"
+
+    a "(interrupts) Didn’t I tell you all to stay quiet?!"
+
 
     "Mushi, Alis and Nami immediately returned to being silent."
-#japanese traditional music/anime music
+
     play music "Renai Circulation.mp3"
     a "If I may continue, JC Night is a performance night with tons of people coming over to check out the talented performers."
 
-    a "What kind of performance, you might ask? Since, like, the dawn of time, JC Night has performances involving acting,
-      dancing, singing, fighting with… Japanese culture! "
+    a "What kind of performance, you might ask? Since, like, the dawn of time, JC Night has performances involving acting, dancing, singing, fighting with… Japanese culture! "
 
-    m "(gets up and begins clapping)
-    Hell yeah! Go go, Japanese culture!"
+
+    m "(gets up and begins clapping) Hell yeah! Go go, Japanese culture!"
+
 
     "The others watched him in silence."
 
-    m "(intimidated)
-    Am I the only excited one here? Well, I wish I could join. (pouts sadly)"
+    m "(intimidated) Am I the only excited one here? Well, I wish I could join. (pouts sadly)"
 
-    a "And… you guys are invited! See you at JC Night tonight, fellas! And whatever you do… don’t wear some dumbsh*t
-     of an outfit in front of me, you got that?! "
+
+    a "And… you guys are invited! See you at JC Night tonight, fellas! And whatever you do… don’t wear some dumbsh*t of an outfit in front of me, you got that?! "
+
 
     a "(sudden solemn face) Make sure to invite all your friends with you, else…"
 
     al "Aaaaand you don’t need to finish that line."
 
-    d "(meekly)
-    So, mind if I hang out with you guys during then--"
+    d "(meekly) So, mind if I hang out with you guys during then--"
 
-    al "(excited)
-    Alright, who’s gonna be sitting beside me? Nami? Mushi? Aida? You three are coming right? Hehehehe!"
 
-    d "(dejectedly; upset)
-    What about me, guys…?"
+    al "(excited) Alright, who’s gonna be sitting beside me? Nami? Mushi? Aida? You three are coming right? Hehehehe!"
 
-    m "Well, sorry, guys. I can’t spend this clearly important event normally --
-     I have to enjoy it with someone special, hehe."
+
+    d "(dejectedly; upset) What about me, guys…?"
+
+
+    m "Well, sorry, guys. I can’t spend this clearly important event normally -- I have to enjoy it with someone special, hehe."
+
 
     m "(speaks in a hushed tone) My mom."
 
     "Nami, Danny, Alis and Aida roll their eyes."
-#thinking music
-    n "(thinking to himself)
-    JC Night, huh? So that means everyone is gonna be there… my crush included.
-    If that’s the case, I’m definitely not missing this. Plus, I’m gonna be meeting a lot of new people
-    as friends on the way."
+
+    n "(thinking to himself) JC Night, huh? So that means everyone is gonna be there… my crush included. If that’s the case, I’m definitely not missing this. Plus, I’m gonna be meeting a lot of new people as friends on the way."
+
+
+
 
     "But who exactly should I invite with me? Alis? Mushi? Danny? Aida?"
 
-    #[Game provides four choices to choose from: Alis, Mushi, Danny and Aida.]
+
     menu:
         "Please invite one of them to the JC Night"
-
         "Alis":
+
             jump al
         "Mushi":
             jump m
@@ -663,66 +663,66 @@ label start:
         "Danny":
             jump d
 
-    #show SCENE 4 (Alis)-
+
     label al:
         scene outside_mph
-        # cavabien henesy music
+
         play music "Henesys Hunting Grounds.mp3"
         "At the entrance of the MPH, Nami is waiting for Alis by the door."
 
-        al "(sneaks up behind Nami; surprises him)
-        Boo!"
+        al "(sneaks up behind Nami; surprises him) Boo!"
 
 
-        n "(jolts back; surprised)
-        Whoa!"
 
-        al "(amused)
-        Hahahaha, scared you, didn’t I? Anyway, hiya!"
+        n "(jolts back; surprised) Whoa!"
 
 
-        n "(still surprised)
-        H-h-hi!"
+        al "(amused) Hahahaha, scared you, didn’t I? Anyway, hiya!"
+
+
+
+        n "(still surprised) H-h-hi!"
+
 
         n "(thinking to himself; stunned) Wow, I’ve never seen Alis like this before…"
 
 
-        al "(looks at Nami; confused)
-        Hello? Earth to Nami? Nami? Moshi moshi?"
+        al "(looks at Nami; confused) Hello? Earth to Nami? Nami? Moshi moshi?"
 
 
-        n "(jolts back to reality)
-        Whoops, sorry there, Alis! I was uh… in… another dimension just now, I guess. Hehe."
+
+        n "(jolts back to reality) Whoops, sorry there, Alis! I was uh… in… another dimension just now, I guess. Hehe."
 
 
-        al "(leans closer; interested)
-        Wanna follow you there, hehe. (giggles)"
+
+        al "(leans closer; interested) Wanna follow you there, hehe. (giggles)"
 
 
-        n "(nervously)
-        So… what’s up with the fancy get-up?"
+
+        n "(nervously) So… what’s up with the fancy get-up?"
+
 
 
         al "Oh, my outfit? Ehehe, you like it? It’s my best set of clothes! I only choose it for the most special of occasions!"
 
 
-        n "(straightens up; excited)
-        So does that mean I’m special?"
+        n "(straightens up; excited) So does that mean I’m special?"
 
 
-        al "(confused)
-        Ummm… no?"
 
-
+        al "(confused) Ummm… no?"
+
+
+
         "Nami frowns, disappointed by Alis’s response."
 
 
-        al "(expression shifts to more amusement)
-        Ahahahah, I’m just joking lah. It’s more because the night itself is special. I mean, it only happens once every year, right?"
+        al "(expression shifts to more amusement) Ahahahah, I’m just joking lah. It’s more because the night itself is special. I mean, it only happens once every year, right?"
 
 
-        n "(still disappointed)
-        Yeah… hahaha…"
+
+        n "(still disappointed) Yeah… hahaha…"
+
 
         an "Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
 
@@ -730,23 +730,23 @@ label start:
         al "Oh em gee, it’s about to start! I’m so excited, eeeeeeeeeeeeeeeek! Come on, let’s go!"
 
 
-        n "(follows behind Alis)
-        Ahahaha, alright alright."
+        n "(follows behind Alis) Ahahaha, alright alright."
+
 
 
         al "Kocchi, kocchi!"
-        # ms music
+
         scene mph
         play music "UponTheSky (During the Ride to Orbis).mp3"
-        an "Inside the MPH building, photos of the previous JC Nights are being presented.
-         Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
+        an "Inside the MPH building, photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
+
 
 
         f "Thank you all for attending JC Night tonight! I just wanted to let you all know how happy I am over here in MMU and how never will I ever get this experience elsewhere."
 
         f "Most of all, a special thank you goes out to members and the high committee of the Japanese Cultural Society for backing me up for this event and really, having my back through thick and thin during times of hardship."
 
-        f "Once again, thank you, and just enjoy the show!"
+        f "Once again, thank you, and just enjoy the show! "
 
         "Outside of MPH, Nami and Alis are together after the end of the event."
 
@@ -757,98 +757,98 @@ label start:
         n "Ahahaha, you dummy! Man, the event was awesome…"
 
 
-        al "(pleadingly)
-        Please give me some good news and tell me you’ve recorded just a tiny little bit of it."
+        al "(pleadingly) Please give me some good news and tell me you’ve recorded just a tiny little bit of it."
+
 
 
         n "Ahahaha, no worries, I did. I’ll hand it over to you. Well, are we gonna head back?"
 
 
-        al "(deep in thought)
-        Hmmm… Mind if you come with me first? Just for a little walk?"
+        al "(deep in thought) Hmmm… Mind if you come with me first? Just for a little walk?"
 
 
-        n "(interest piqued)
-        Uh, sure."
+
+        n "(interest piqued) Uh, sure."
 
 
-        al "(happy)
-        Hooray! Well come on, then! This way!"
-#relaxing ms music
+
+        al "(happy) Hooray! Well come on, then! This way!"
+
+
         scene otw_quiet
         play music "Ellinia Missing You.mp3"
-        "Both Nami and Alis set out on a walk. There, they spent time indulging in petty banter and light jokes.
-         After approximately fifteen minutes, Alis has led Nami into a quiet part of Cyberjaya."
-#music stopped
+        "Both Nami and Alis set out on a walk. There, they spent time indulging in petty banter and light jokes. After approximately fifteen minutes, Alis has led Nami into a quiet part of Cyberjaya."
+
+
         scene grave
-        al "(in a sombre voice; serious)
-        You know, it was just a coincidence that the JC Night for this year was on this particular night but…
-        I figured I couldn’t miss this opportunity."
+        al "(in a sombre voice; serious) You know, it was just a coincidence that the JC Night for this year was on this particular night but… I figured I couldn’t miss this opportunity."
+
+
         al "I come here every year and since you brought me to JC Night, I thought that I should show you this."
 
         n "Show me…?"
 
 
-        al "(has difficulty speaking)
-        I wanted to show you my…"
+        al "(has difficulty speaking) I wanted to show you my…"
 
 
-        n "(waits in anticipation)
-        My…?"
 
-#sad music
+        n "(waits in anticipation) My…?"
+
+
+
         play music "Spirited Away The Name Of Life.mp3"
-        al "(begins to tear up)
-        ...My cat’s grave. My cat Kelabu. He used to be nothing but family to me ever since I left elementary school.
-        I loved him so much, we were practically inseparable."
-        al "He was there for me during my bad days at school.
-        I used to get bullied a lot, but every time I came home in tears, he was always there to make things better. I… I--"
+        al "(begins to tear up) ...My cat’s grave. My cat Kelabu. He used to be nothing but family to me ever since I left elementary school. I loved him so much, we were practically inseparable."
+
+
+        al "He was there for me during my bad days at school. I used to get bullied a lot, but every time I came home in tears, he was always there to make things better. I… I--"
+
 
         "Alis bursts down into tears."
 
 
-        n "(shocked)
-        Wha--? (thinking to himself) I’ve never seen Alis cry like this before. (to Alis) Alis, are you okay?"
+        n "(shocked) Wha--? (thinking to himself) I’ve never seen Alis cry like this before. (to Alis) Alis, are you okay?"
 
 
-        al "(still crying)
-        No. My cat has always been like family to me."
+
+        al "(still crying) No. My cat has always been like family to me."
 
 
-        n "(uncertain on what to do but was still desperate to try something anyway)
-        Awww, Alis, why don’t you come here? I’ll show a bunch of memes, all right?"
+
+        n "(uncertain on what to do but was still desperate to try something anyway) Awww, Alis, why don’t you come here? I’ll show a bunch of memes, all right?"
 
 
-        al "(sniffles)
-        Where?"
+
+        al "(sniffles) Where?"
+
         stop music
-#music stopped
-        "Nami proceeds to show a bunch of memes for Alis to see.
-        It takes her a while to start smiling but when she finally does,
-        it was not long until she starts to laugh as well."
-#cheerful music
+
+        "Nami proceeds to show a bunch of memes for Alis to see. It takes her a while to start smiling but when she finally does, it was not long until she starts to laugh as well."
+
+
+
         play music "Florina Beach Beachway.mp3"
-        "Ten minutes after the both of them had laughed over a couple of memes,
-           Nami returns to ask her of her wellbeing. "
+        "Ten minutes after the both of them had laughed over a couple of memes, Nami returns to ask her of her wellbeing. "
+
 
 
         n "You good now?"
 
 
-        al "(smiling)
-        Even though I might cry at times, don’t worry, I’m always good. Thanks for cheering me up though, by the way."
+        al "(smiling) Even though I might cry at times, don’t worry, I’m always good. Thanks for cheering me up though, by the way."
+
 
         al "I’m getting sleepy now though, so I’m gonna head back home. See you tomorrow, all right? It’s a promise."
 
 
-        "(repeats; smiling back)
-        Promise."
+        "(repeats; smiling back) Promise."
+
         jump ending
-    # show SCENE 4 (Mushi)-
+
 
     label m:
         scene outside_mph
-        # funny/weird music(ms)
+
         play music "Omega Sector Finding Forest.mp3"
         n "Mushi! I’m over here!"
 
@@ -872,16 +872,16 @@ label start:
 
         an "Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
 
-        m "(to his anime girl models)
+        m "(to his anime girl models) Let’s go, babes. The grand event is about to start. (looks over to Nami) You coming along or what, Nami? Here, if you really are that desperate for a girl, I’ll lend you one."
 
-        Let’s go, babes. The grand event is about to start. (looks over to Nami) You coming along or what, Nami? Here, if you really are that desperate for a girl, I’ll lend you one."
+
 
         n "(excited) Does this mean I get one?!"
 
         m "(snapping) No!"
 
         "Nami frowns, upset."
-#ms music
+
         scene mph
         play music "UponTheSky (During the Ride to Orbis).mp3"
         an "The JC Night event then begins. Photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
@@ -893,7 +893,7 @@ label start:
         f "Most of all, a special thank you goes out to members and the high committee of the Japanese Cultural Society for backing me up for this event and really, having my back through thick and thin in general."
 
         f "Once again, thank you, and just enjoy the show!"
-#ms music wee
+
         scene outside_mph
         play music "Henesys Floral Life.mp3"
         "Outside of MPH, Nami and Mushi are together after the end of the event. Mushi’s anime girl models are being taken away by an unrecognized man."
@@ -905,9 +905,9 @@ label start:
         n "But why go through the hassle of renting it up if you had to cough up all that money?"
 
         "Mushi stays quiet for a long time, but Nami is unable to read his expression from the mask on his face."
-#music stopped
+
         "The silence persists for about ten seconds, twenty, until Mushi alas comes together and decides to speak. His head is lowered, as if he’s embarrassed to say words."
-#lovely music
+
         play music "Cute.mp3"
         m "Because I… wanted to impress you."
 
@@ -933,13 +933,13 @@ label start:
 
         m "Sure, my man. At the same time, let me show you a little something -- me without my mask on. Just for your eyes only, for just a second…"
 
-        n "Mushi proceeds to remove his mask for Nami to see."
+        n "Mushi proceeds to remove his mask for Nami to see. "
 
         jump ending
 
-    # show SCENE 4 (Aida)-
 
-#very uwu music interestinggg
+
+
     label a:
         scene lib_front
         play music "Cute.mp3"
@@ -950,7 +950,7 @@ label start:
         a "What?! Just ‘fine’? Ugh…"
 
         n "(thinking to himself) Aida seems a little weird today. I wonder what’s going on?"
-#awkward music
+
         play music "Awkward Instrumental Comedy Music.mp3"
         n "So… you already taken your meal?"
 
@@ -958,17 +958,17 @@ label start:
 
         n "(uneasy) Um, hey, you seriously feeling alright?"
 
-        a "(annoyed) What?! Yes, I am --  don’t ask me such a ridiculous question!"
+        a "(annoyed) What?! Yes, I am -- don’t ask me such a ridiculous question!"
 
         n "(frightened) Oh, okay okay!"
         stop music
         "An eerie silence hangs between the two of them as they both remain still in the awkwardness of the situation."
 
         "Nami attempts to strike a conversation but much to his disappointment, he could think of no words to say what he wishes to."
-#piano music (alit calm and sad)
+
 
         "After finally about a minute or two later, Aida decides to speak."
-        play music ""
+        play music "Sad Piano Music.mp3"
         a "Can I… tell you something, Nami?"
 
         n "(hesitantly) Uhhh, sure. Why?"
@@ -982,9 +982,8 @@ label start:
         an "Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
 
         a "Oh, it’s about to start. Let’s get in there, Nami."
-#ms music
+
         scene mph
-        play music "UponTheSky (During the Ride to Orbis).mp3"
         an "Inside the MPH building, photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
 
         f "Thank you all for attending JC Night tonight!"
@@ -994,9 +993,8 @@ label start:
         f "Most of all, a special thank you goes out to members and the high committee of the Japanese Cultural Society for backing me up for this event and really, having my back through thick and thin in general."
 
         f "Once again, thank you, and just enjoy the show!"
-#relaxing music ms
+
         scene outside_mph
-        play music "Henesys Rest N Peace.mp3"
         "Outside of MPH, Nami and Aida are together after the end of the event."
 
         n "Damn, that was some really good acting in there!"
@@ -1015,7 +1013,6 @@ label start:
 
         a "(perks up; squeals; excited) I wanna!"
 
-        play music "Cute.mp3"
         n "(thinking to himself) Wow, Aida is so very different when she's chipper. It's a lot more different than how she's always strict at the club. It's actually… pretty cute."
 
         n "Hahaha, alright then. On me!"
@@ -1031,16 +1028,16 @@ label start:
         n "So how about we do each other a favour and make one another feel a little less lonely tonight?"
 
         a "(amused; overjoyed) Hahahaha, let's!"
-        # Insert a background here >.< (MAYBE)
+
         "And so together, Aida and Nami set off on their journey to enjoy the rest of the night with someone special in their hearts. "
 
         jump ending
 
-    # Scene 4 (Danny)-
+
 
     label d:
         scene outside_mph
-        play music Florina Beach Beachway.mp3
+
         n "Danny? You came? I thought you were asleep over at the club room."
 
         d "Ah, hey there, Nami. Well, let's just say I wanted to get some fresh air, y'know. Hehe."
@@ -1060,7 +1057,7 @@ label start:
         an "Ladies and gentlemen, gather round for in five minutes, we’re bringing this party to life!"
 
         d "Eyyy, what do you know, there's our cue! C'mon, let's head on in before the best seats are taken."
-        play music "UponTheSky (During the Ride to Orbis).mp3"
+
         scene mph
         an "Inside the MPH building, photos of the previous JC Nights are being presented. Up on the stage is Farhan, who is giving a heartwarming speech as he is about to leave the university and graduate."
 
@@ -1071,20 +1068,18 @@ label start:
         f "Most of all, a special thank you goes out to members and the high committee of the Japanese Cultural Society for backing me up for this event and really, having my back through thick and thin in general."
 
         f "Once again, thank you, and just enjoy the show!"
-#cheerful music
+
         scene outside_mph
-        play music "Omega Sector Finding Forest.mp3"
         "Outside of MPH, Nami and Aida are together after the end of the event."
 
         d "(hyped up) That… was… an epic performance! Plus having you by my side made it all the more awesome, that's for sure."
 
         n "Yeah, it was amazing all right but… could you really get a good view of the stage while you were hiding underneath your chair the whole time?"
-#peaceful music
 
         d "Oh… Well, I can. It's not that I'm doing it to get a better view or something like that but I'm just… really shy when it comes to strangers. Admittedly, I'm weak when it comes to being in large crowds. I can't handle that."
 
         n "Ohh, so that explains why you're always sitting underneath things, even when I first came into the club room."
-        play music "Singapore Boat Quay Town.mp3"
+
         n "You should try speaking with the people around you so they can get to know you more and realize just how awesome you are. If you keep this up, things will end up bad for you, bro."
 
         d "Hahahaha, nice try, man. But… believe it or not, I like being this way -- remaining in the shadows, hiding where no one can see me and all because from afar, I get to watch everyone succeed with the best of their efforts."
@@ -1099,23 +1094,21 @@ label start:
 
         "Happy, the two boys part ways."
 
-    # ENDING
+
 
     label ending:
         scene black
-        #phone noti rings
-        play music "notification_sound.mp3"
+
         "Nami's phone notification plays in the background."
 
         pm "Hey, Nami. Can we meet at MMU Stadium in a bit? There's something I need to tell you. Please come over quick."
-        #hooray sound effect
-        play music "Children_Yay_Sound_Effect.mp3"
+
         scene stad_stairs
         n "Oh my God, my crush messaged me! I have to go now and meet up with her. I mean, who knows, maybe she's gonna admit she loves me back! Finally, the time has come at last… This time, I'm gonna make things happen!"
 
         "Nami runs down the stairs in his excitement and dashes through the road to make his way across the street."
+
         scene white
-        play music "Car Screech And Crash.mp3"
         "A truck, however, fails to notice Nami trying to pass and in a flash, it hits Nami with high speed."
 
         scene black
@@ -1126,12 +1119,12 @@ label start:
         "As he waited, tensed, in the darkness, time passes and slowly the void begins to clear."
         scene argue
         "Though difficult to see, Nami picks up the sight of two people arguing. Grimly, he remembers."
-#sad violin music playsss
-        play musics "sadcredits01.mp3"
+
         n "Mom… Dad…"
 
         "Devoured by his memories, Nami begins to sob. In that darkness, no one listens to his cries. Truly, Nami is all alone. Just as he always is."
 
 
-    # This ends the game.
+
     return
+# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

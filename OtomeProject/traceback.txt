@@ -1,27 +1,29 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 972, in script
-    a "Can I… tell you something, Nami?"
-IOError: Couldn't find file 'Sad Violin Music.mp3'.
+  File "renpy/common/000window.rpy", line 98, in _window_auto_callback
+    _window_show()
+  File "renpy/common/000window.rpy", line 60, in _window_show
+    renpy.with_statement(trans)
+IOError: Couldn't find file 'DYATHON - Desolation.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 972, in script
-    a "Can I… tell you something, Nami?"
-  File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\ast.py", line 678, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\exports.py", line 1229, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\character.py", line 1031, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\character.py", line 823, in do_display
-    **display_args)
-  File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\character.py", line 572, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\ui.py", line 289, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/script.rpyc", line 39, in script
+    ϪV�[�*<�Α*�2��Y :)�Nm��s]�v��~�vՏ��@����̏�H/�wзϰ@�w�"����w���RB{ڇ���/�;=	-�$�}�D�Н�%���t��N���)HK
+  File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\ast.py", line 644, in execute
+    statement_name("say")
+  File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\ast.py", line 45, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 98, in _window_auto_callback
+    _window_show()
+  File "renpy/common/000window.rpy", line 60, in _window_show
+    renpy.with_statement(trans)
+  File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\exports.py", line 1481, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\display\core.py", line 2227, in do_with
+    clear=clear)
   File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\display\core.py", line 2672, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
   File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\display\core.py", line 3344, in interact_core
@@ -36,9 +38,9 @@ Full traceback:
     rv = renpy.loader.load(fn)
   File "C:\Users\puakh\OneDrive\Desktop\renpy-7.1.3-sdk\renpy\loader.py", line 576, in load
     raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'Sad Violin Music.mp3'.
+IOError: Couldn't find file 'DYATHON - Desolation.mp3'.
 
 Windows-8-6.2.9200
 Ren'Py 7.1.3.1092
 JCS OTOME GAME! 1.0
-Mon Jul 22 03:32:24 2019
+Mon Jul 22 11:06:37 2019
